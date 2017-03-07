@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <color name="white2">#F0F8FF</color>
+   <color name="calendar_top_bg">#FFFFFF</color> 
+   <color name="white">#ffffff</color>
+	<color name="blue">#99ccff</color>
+	<color name="yellow">#ffff33</color>
+	<color name="gray">#cccccc</color>
+	<color name="green">#669933</color>
+	<color name="green_light">#66cc66</color>
+	<color name="red">#ffcd2222</color>
+	<color name="red_dark">#ffb52121</color>
+	<color name="zise">#660099</color>
+	<color name="black">#000000</color>
+    <color name="down_background">#282e3c</color>
+    <color name="theme_background">#ccff99</color>
+    <color name="theme_green">#2afe6b</color>
+</resources>

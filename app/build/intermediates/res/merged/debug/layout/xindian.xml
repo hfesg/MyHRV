@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <RelativeLayout
+        
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:background="#4fa5d5"
+        >
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:background="@drawable/backha" 
+            android:layout_marginTop="10dip"
+            android:layout_marginBottom="10dip"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dip" 
+            />
+
+        <TextView
+            android:id="@+id/xindian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/back"
+            android:layout_centerHorizontal="true"
+            android:text="心电图"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+
+
+    </RelativeLayout>
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="10dip"
+        android:background="#efefef"
+        />
+    <LinearLayout 
+        android:id="@+id/fenxichart"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal"
+        >
+    </LinearLayout>
+    
+    
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#efefef"
+    android:orientation="vertical" >
+    <LinearLayout 
+         android:layout_width="match_parent"
+         android:layout_height="45dp"
+         android:orientation="horizontal"
+         
+         android:background="#4fa5d5"
+         >
+         <Button 
+             android:id="@+id/exit_panel"
+             android:onClick="onClick"
+             android:layout_width="35dp"
+             android:layout_height="35dp"
+             android:layout_gravity="center_vertical"
+             android:layout_marginLeft="10dp"
+             android:background="@drawable/backha"
+             />
+         <TextView 
+             android:id="@+id/date_text"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="60dp"
+             android:layout_gravity="center"
+             android:textSize="20sp"
+             android:textColor="#ffffff"
+             android:text="6.21"
+             />
+         
+     </LinearLayout>
+     <ListView 
+         android:id="@+id/listview"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:background="#ffffff"
+         android:divider="#efefef"
+         android:dividerHeight="2dp"
+         android:layout_marginTop="10dp"
+         android:layout_marginLeft="5dp"
+         android:layout_marginRight="5dp"
+         ></ListView>
+
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tablayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/tab1"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:layout_weight="0.83"
+        android:freezesText="true"
+        android:gravity="center"
+        android:height="40dip"
+        android:lines="1"
+        android:text="@string/shiyu"
+        android:textColor="@android:color/white"
+        android:textSize="25sp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/tab2"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:layout_weight="0.89"
+        android:gravity="center"
+        android:height="40dip"
+        android:lines="1"
+        android:text="@string/pinyu"
+        android:textColor="@android:color/white"
+        android:textSize="25sp" >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tab3"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:layout_weight="1.84"
+        android:gravity="center"
+        android:height="40dip"
+        android:lines="1"
+        android:text="@string/xinlvqushi"
+        android:textColor="@android:color/white"
+        android:textSize="25sp" >
+
+    </TextView>
+
+</LinearLayout>

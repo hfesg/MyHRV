@@ -1,0 +1,4 @@
+#Sat Mar 04 19:36:18 CST 2017
+base.0=/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

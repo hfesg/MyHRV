@@ -1,0 +1,121 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:2:1-47:12
+	package
+		ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:3:5-30
+		INJECTED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:9:9-38
+		INJECTED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:8:9-34
+		INJECTED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml
+uses-feature#android.hardware.usb.host
+ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:10:2-59
+	android:name
+		ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:10:16-56
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:11:2-78
+	android:name
+		ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:11:19-75
+uses-permission#android.permission.INTERNET
+ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:12:2-63
+	android:name
+		ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:12:19-61
+application
+ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:14:5-45:19
+	android:label
+		ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:17:9-41
+	android:allowBackup
+		ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:15:9-35
+	android:icon
+		ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:16:9-38
+	android:theme
+		ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:18:9-40
+activity#com.login.LoginActivity
+ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:19:9-32:20
+	android:label
+		ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:21:13-45
+	android:name
+		ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:20:13-51
+intent-filter#android.hardware.usb.action.USB_DEVICE_ATTACHED+android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:22:13-27:29
+action#android.hardware.usb.action.USB_DEVICE_ATTACHED
+ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:23:17-90
+	android:name
+		ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:23:25-87
+action#android.intent.action.MAIN
+ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:24:17-69
+	android:name
+		ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:24:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:26:17-77
+	android:name
+		ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:26:27-74
+meta-data#android.hardware.usb.action.USB_DEVICE_ATTACHED
+ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:28:17-30:57
+	android:resource
+		ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:30:17-54
+	android:name
+		ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:29:17-79
+activity#com.hrv.HRV
+ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:33:9-47
+	android:name
+		ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:33:19-45
+activity#com.calendar.Calendar
+ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:34:9-57
+	android:name
+		ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:34:19-55
+activity#com.hrv.RecordDetial
+ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:35:9-56
+	android:name
+		ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:35:19-54
+activity#com.login.LoadingActivity
+ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:36:9-99
+	android:theme
+		ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:36:60-96
+	android:name
+		ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:36:19-59
+activity#com.login.RegistActivity
+ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:37:9-60
+	android:name
+		ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:37:19-58
+activity#com.hrv.XindianActivity
+ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:38:9-59
+	android:name
+		ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:38:19-57
+activity#com.historyActivity.HistoryActivity
+ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:39:9-71
+	android:name
+		ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:39:19-69
+activity#com.historyActivity.PanelActivity
+ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:40:9-69
+	android:name
+		ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:40:19-67
+activity#com.roundProgressbar.BreathGuideActivity
+ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:41:9-76
+	android:name
+		ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:41:19-74
+activity#com.roundProgressbar.HelpActivity
+ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:42:9-69
+	android:name
+		ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:42:19-67
+activity#com.userInfoActivity.UserInfoActivity
+ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:43:9-83
+	android:name
+		ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:43:19-71

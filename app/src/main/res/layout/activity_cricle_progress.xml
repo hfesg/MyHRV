@@ -1,0 +1,211 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.example.hrv"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@drawable/bacground_breath"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/linear1"
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:background="#00000000" >
+
+            <Button
+                android:id="@+id/close"
+                android:layout_width="30dip"
+                android:layout_height="30dip"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dip"
+                android:layout_marginTop="10dip"
+                android:layout_marginBottom="10dip"
+                android:onClick="onClick"
+                android:background="@drawable/backha" />
+
+            <Button
+                android:id="@+id/btn_help"
+                android:layout_width="45dip"
+                android:layout_height="50dip"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="5dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="5dip"
+                android:background="@drawable/ic_action_help"
+            	android:onClick="onClick" 
+                 />
+
+             <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="#00000000"
+                android:textSize="20dip"
+                android:text="呼吸引导训练"
+                android:textColor="#ffffff"
+                 />
+
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/linear1"
+            android:background="#efefef" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn_voice_close"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="30dip"
+                android:layout_marginTop="25dip"
+                android:background="@drawable/seletor_bn_voice"
+                android:onClick="onClick" />
+
+            <Button
+                android:id="@+id/btn_voice_open"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="30dip"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/selector_btn_voiceopen"
+                android:onClick="onClick" />
+        </LinearLayout>
+
+        <!-- <Button
+            android:id="@+id/btn_help"
+            android:layout_width="70dip"
+            android:layout_height="90dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="30dip"
+            android:background="@drawable/btn_help2"
+            android:onClick="onClick" /> -->
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp" >
+
+        <com.roundProgressbar.RoundProgressBar
+            android:id="@+id/roundProgressBar2"
+            android:layout_width="250dip"
+            android:layout_height="250dip"
+            android:layout_gravity="center"
+            app:defaultRoundColor="@color/gray"
+            app:max="120"
+            app:roundWidth="18dip" />
+
+         <ImageView
+             android:id="@+id/rotate"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:layout_gravity="center"
+            android:src="@drawable/homepage_disk_optimizing" />
+
+        <TextView
+            android:id="@+id/breath_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="深吸气"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:layout_gravity="center"
+             />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="55dip" >
+
+            <TextView
+                android:id="@+id/fentext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="05"
+                android:textColor="@color/green_light"
+                android:textStyle="bold"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text=" : "
+                android:textColor="@color/green_light"
+                android:textStyle="bold"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/miaotext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="00"
+                android:textColor="@color/green_light"
+                android:textStyle="bold"
+                android:textSize="25sp" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="38dip"
+        android:layout_marginTop="25dip" >
+
+        <Button
+            android:id="@+id/start"
+            style="@style/btnstyle"
+            android:layout_width="200dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="开 始"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!-- <Button
+            android:id="@+id/stop"
+            style="@style/btnstyle"
+            android:layout_width="75dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="18dp"
+            android:layout_toLeftOf="@+id/start"
+            android:onClick="onClick"
+            android:text="暂 停"
+            android:textSize="19dip"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/close"
+            style="@style/btnstyle"
+            android:layout_width="75dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="18dp"
+            android:layout_toRightOf="@+id/start"
+            android:onClick="onClick"
+            android:text="退 出"
+            android:textSize="19dip"
+            android:textStyle="bold" /> -->
+    </RelativeLayout>
+
+</LinearLayout>

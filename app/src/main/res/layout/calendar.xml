@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <RelativeLayout
+        
+        android:layout_width="match_parent"
+        android:layout_height="60dip"
+        >
+
+        <Button
+            android:id="@+id/fanhui"
+            android:layout_width="20dip"
+            android:layout_height="30dip"
+            android:background="@drawable/btn_caidan_2" 
+            android:layout_marginTop="15dip"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="15dip" 
+            />
+        <TextView
+            android:id="@+id/jilu"
+            android:layout_width="80dip"
+            android:layout_height="40dip"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="35dip" 
+            android:layout_marginTop="6dip"
+            android:text="@string/jilu"
+            android:textSize="35dp"
+            android:textColor="#00BFFF"
+            />
+        <Button
+            android:id="@+id/rili"
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dip"
+            android:layout_marginTop="15dip"
+            android:background="@drawable/btn_liebiao" />
+    </RelativeLayout>    
+		<ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:background="#00BFFF" />
+   <RelativeLayout 
+		android:id="@+id/layout_calendar"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:visibility="visible" 
+    	android:background="@color/calendar_top_bg"
+       >
+       <TextView
+        android:id="@+id/calendarCenter"
+        style="@style/main_bar_text_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="8dp" />
+
+    <ImageButton
+        android:id="@+id/calendarLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/calendarCenter"
+        android:layout_centerHorizontal="true"
+        android:background="@null"
+        android:contentDescription="@null"
+        android:padding="8dp"
+        android:src="@drawable/cleft" />
+
+    <ImageButton
+        android:id="@+id/calendarRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/calendarCenter"
+        android:layout_centerHorizontal="true"
+        android:background="@null"
+        android:contentDescription="@null"
+        android:padding="8dp"
+        android:src="@drawable/cright" />
+    <com.calendar.CalendarView
+        android:id="@+id/calendar"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/calendarCenter" />   
+       
+   </RelativeLayout> 
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\build\\intermediates\\res\\merged\\debug\\raw\\outbreath.wav",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\src\\main\\res\\raw\\outbreath.wav"
+    },
+    {
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\build\\intermediates\\res\\merged\\debug\\raw\\bingxi.wav",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\src\\main\\res\\raw\\bingxi.wav"
+    },
+    {
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/raw/breath.wav",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/raw/breath.wav"
+    },
+    {
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\build\\intermediates\\res\\merged\\debug\\raw\\breath.wav",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\src\\main\\res\\raw\\breath.wav"
+    },
+    {
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/raw/outbreath.wav",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/raw/outbreath.wav"
+    },
+    {
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/raw/bingxi.wav",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/raw/bingxi.wav"
+    }
+]

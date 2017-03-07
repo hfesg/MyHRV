@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hrv"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-feature android:name="android.hardware.usb.host" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/main"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.login.LoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
+                android:resource="@xml/device_filter" />
+        </activity>
+        <activity android:name="com.hrv.HRV" />
+        <activity android:name="com.calendar.Calendar" />
+        <activity android:name="com.hrv.RecordDetial" />
+        <activity
+            android:name="com.login.LoadingActivity"
+            android:theme="@style/MyDialogStyle" />
+        <activity android:name="com.login.RegistActivity" />
+        <activity android:name="com.hrv.XindianActivity" />
+        <activity android:name="com.historyActivity.HistoryActivity" />
+        <activity android:name="com.historyActivity.PanelActivity" />
+        <activity android:name="com.roundProgressbar.BreathGuideActivity" />
+        <activity android:name="com.roundProgressbar.HelpActivity" />
+        <activity android:name="com.userInfoActivity.UserInfoActivity" />
+    </application>
+
+</manifest>
