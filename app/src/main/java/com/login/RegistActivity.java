@@ -11,6 +11,7 @@ import android.view.Window;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RadioButton;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.hrv.R;
@@ -27,7 +28,7 @@ public class RegistActivity extends Activity {
 	private RadioButton man;
 	private RadioButton women;
 	private Button regist;
-	private Button statement;
+	private TextView statement;
 	private Button exit;
 
 	private String nameStr;
@@ -52,7 +53,7 @@ public class RegistActivity extends Activity {
 		man = (RadioButton) findViewById(R.id.radio_man);
 		women = (RadioButton) findViewById(R.id.radio_women);
 		regist = (Button) findViewById(R.id.btn_regist);
-		statement = (Button) findViewById(R.id.btn_statement);
+		statement = (TextView) findViewById(R.id.btn_statement);
 		exit = (Button) findViewById(R.id.exit_regist);
 
 		regist.setOnClickListener(new OnClickListener() {

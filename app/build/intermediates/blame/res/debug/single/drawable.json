@@ -4,16 +4,8 @@
         "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/drawable/top_switcher_collapsed.png"
     },
     {
-        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_btn_voiceopen.xml",
-        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\src\\main\\res\\drawable\\selector_btn_voiceopen.xml"
-    },
-    {
-        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\top_switcher_expanded_selected.png",
-        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\src\\main\\res\\drawable\\top_switcher_expanded_selected.png"
-    },
-    {
-        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\top_switcher_expanded.png",
-        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\src\\main\\res\\drawable\\top_switcher_expanded.png"
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/pic_main_first.png",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/drawable/pic_main_first.png"
     },
     {
         "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/pic_button_sign_up_bg.png",
@@ -22,14 +14,6 @@
     {
         "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/btn_style_green.xml",
         "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/drawable/btn_style_green.xml"
-    },
-    {
-        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\top_switcher_expanded_background.xml",
-        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\src\\main\\res\\drawable\\top_switcher_expanded_background.xml"
-    },
-    {
-        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\top_switcher_collapsed_focused.png",
-        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\src\\main\\res\\drawable\\top_switcher_collapsed_focused.png"
     },
     {
         "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/pic_button_login_bg.png",
@@ -48,20 +32,16 @@
         "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/drawable/top_switcher_collapsed_selected.png"
     },
     {
-        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lianjie_button_selector.xml",
-        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\src\\main\\res\\drawable\\lianjie_button_selector.xml"
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/pic_main_second.png",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/drawable/pic_main_second.png"
     },
     {
         "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/pic_checkbox_checked.png",
         "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/drawable/pic_checkbox_checked.png"
     },
     {
-        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_red_corners_button.xml",
-        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\src\\main\\res\\drawable\\shape_red_corners_button.xml"
-    },
-    {
-        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_history_icon.xml",
-        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\src\\main\\res\\drawable\\shape_history_icon.xml"
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/drawable/abc_list_selector_background_transition_holo_light.xml"
     },
     {
         "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/pic_login_bg.png",
@@ -72,16 +52,28 @@
         "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/drawable/background_style.xml"
     },
     {
-        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\login_button_style.xml",
-        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\src\\main\\res\\drawable\\login_button_style.xml"
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/pic_main_third.png",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/drawable/pic_main_third.png"
     },
     {
         "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/pic_checkbox_unchecked.png",
         "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/drawable/pic_checkbox_unchecked.png"
     },
     {
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
         "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/top_switcher_collapsed_focused.png",
         "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/drawable/top_switcher_collapsed_focused.png"
+    },
+    {
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/abc_ic_clear.xml",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/drawable/abc_ic_clear.xml"
     },
     {
         "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/selector_btn_voiceopen.xml",
@@ -92,12 +84,16 @@
         "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/drawable/top_switcher_expanded.png"
     },
     {
-        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\top_switcher_collapsed.png",
-        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\src\\main\\res\\drawable\\top_switcher_collapsed.png"
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/abc_search_dropdown_dark.xml",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/drawable/abc_search_dropdown_dark.xml"
     },
     {
-        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\background_style.xml",
-        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\src\\main\\res\\drawable\\background_style.xml"
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/corners_bg.xml",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/drawable/corners_bg.xml"
+    },
+    {
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/abc_textfield_searchview_right_holo_light.xml",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/drawable/abc_textfield_searchview_right_holo_light.xml"
     },
     {
         "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/shape_history_icon.xml",
@@ -108,16 +104,20 @@
         "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/drawable/shape_red_corners_button_pressed.xml"
     },
     {
-        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ecglogo.png",
-        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\src\\main\\res\\drawable\\ecglogo.png"
-    },
-    {
         "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/pic_login_edit_text_bg.png",
         "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/drawable/pic_login_edit_text_bg.png"
     },
     {
-        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\top_switcher_collapsed_selected.png",
-        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\src\\main\\res\\drawable\\top_switcher_collapsed_selected.png"
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/abc_textfield_searchview_holo_dark.xml",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/drawable/abc_textfield_searchview_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/loading_bg.png",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/drawable/loading_bg.png"
+    },
+    {
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/drawable/abc_item_background_holo_light.xml"
     },
     {
         "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/btn_ecg.xml",
@@ -128,36 +128,44 @@
         "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/drawable/pic_sign_up_text_bg.png"
     },
     {
-        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\seletor_bn_voice.xml",
-        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\src\\main\\res\\drawable\\seletor_bn_voice.xml"
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/pic_guilder.png",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/drawable/pic_guilder.png"
     },
     {
-        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_shape.xml",
-        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\src\\main\\res\\drawable\\btn_shape.xml"
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/corners_iv.xml",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/drawable/corners_iv.xml"
     },
     {
-        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\xinxi.png",
-        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\src\\main\\res\\drawable\\xinxi.png"
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/gra_tool_bar.xml",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/drawable/gra_tool_bar.xml"
     },
     {
-        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\landing.png",
-        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\src\\main\\res\\drawable\\landing.png"
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_ab_holo.xml",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/drawable/abc_tab_indicator_ab_holo.xml"
     },
     {
-        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\top_switcher_collapsed_background.xml",
-        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\src\\main\\res\\drawable\\top_switcher_collapsed_background.xml"
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/cornners_iv_2.xml",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/drawable/cornners_iv_2.xml"
     },
     {
         "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/top_switcher_expanded_background.xml",
         "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/drawable/top_switcher_expanded_background.xml"
     },
     {
-        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_home_bg.png",
-        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\src\\main\\res\\drawable\\btn_home_bg.png"
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/corners_bg_2.xml",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/drawable/corners_bg_2.xml"
     },
     {
         "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/heart_shape.xml",
         "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/drawable/heart_shape.xml"
+    },
+    {
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/abc_spinner_ab_holo_dark.xml",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/drawable/abc_spinner_ab_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/pic_bg_bt_percenal_center.png",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/drawable/pic_bg_bt_percenal_center.png"
     },
     {
         "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/textview_border.xml",
@@ -168,16 +176,20 @@
         "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/drawable/selector_login_checkbox.xml"
     },
     {
-        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\heart_shape.xml",
-        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\src\\main\\res\\drawable\\heart_shape.xml"
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/abc_textfield_searchview_right_holo_dark.xml",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/drawable/abc_textfield_searchview_right_holo_dark.xml"
     },
     {
         "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/lianjie_button_selector.xml",
         "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/drawable/lianjie_button_selector.xml"
     },
     {
-        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_style_green.xml",
-        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\src\\main\\res\\drawable\\btn_style_green.xml"
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/pic_begin_running_stop_bg.png",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/drawable/pic_begin_running_stop_bg.png"
+    },
+    {
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/pic_login_logo.png",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/drawable/pic_login_logo.png"
     },
     {
         "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/seletor_bn_voice.xml",
@@ -188,28 +200,60 @@
         "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/drawable/pic_login.png"
     },
     {
-        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_red_corners_button_pressed.xml",
-        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\src\\main\\res\\drawable\\shape_red_corners_button_pressed.xml"
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/pic_bg_bt_healthy_report.png",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/drawable/pic_bg_bt_healthy_report.png"
     },
     {
-        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/ecglogo.png",
-        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/drawable/ecglogo.png"
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/pic_heart_picture.png",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/drawable/pic_heart_picture.png"
+    },
+    {
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/abc_search_dropdown_light.xml",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/drawable/abc_search_dropdown_light.xml"
     },
     {
         "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/top_switcher_expanded_focused.png",
         "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/drawable/top_switcher_expanded_focused.png"
     },
     {
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/corners_bg_main_activity.xml",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/drawable/corners_bg_main_activity.xml"
+    },
+    {
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/pic_begin_running_during_time.png",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/drawable/pic_begin_running_during_time.png"
+    },
+    {
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/ecglogo.png",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/drawable/ecglogo.png"
+    },
+    {
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/pic_bar_help.png",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/drawable/pic_bar_help.png"
+    },
+    {
         "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/btn_shape.xml",
         "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/drawable/btn_shape.xml"
+    },
+    {
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/abc_spinner_ab_holo_light.xml",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/drawable/abc_spinner_ab_holo_light.xml"
     },
     {
         "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/selector_red_corners_button.xml",
         "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/drawable/selector_red_corners_button.xml"
     },
     {
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
         "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/top_switcher_expanded_selected.png",
         "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/drawable/top_switcher_expanded_selected.png"
+    },
+    {
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/abc_textfield_searchview_holo_light.xml",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/drawable/abc_textfield_searchview_holo_light.xml"
     },
     {
         "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/btn_home_bg.png",
@@ -220,12 +264,12 @@
         "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/drawable/pic_checkbox_bg.png"
     },
     {
-        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\textview_border.xml",
-        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\src\\main\\res\\drawable\\textview_border.xml"
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/pic_main_fource.png",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/drawable/pic_main_fource.png"
     },
     {
-        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_red_corners_button.xml",
-        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\src\\main\\res\\drawable\\selector_red_corners_button.xml"
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/drawable/abc_list_selector_holo_light.xml"
     },
     {
         "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/xinxi.png",
@@ -236,12 +280,8 @@
         "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/drawable/login_button_style.xml"
     },
     {
-        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_ecg.xml",
-        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\src\\main\\res\\drawable\\btn_ecg.xml"
-    },
-    {
-        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\top_switcher_expanded_focused.png",
-        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\src\\main\\res\\drawable\\top_switcher_expanded_focused.png"
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/abc_ic_clear_holo_light.xml",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/drawable/abc_ic_clear_holo_light.xml"
     },
     {
         "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/shape_red_corners_button.xml",

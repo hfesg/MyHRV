@@ -2,14 +2,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_marginBottom="20dp"
-    android:layout_marginTop="20dp"
-    android:background="#FFFFFF"
+    android:layout_marginTop="10dp"
     android:gravity="center_vertical" >
 
     <FrameLayout
         android:layout_width="40dp"
         android:layout_height="match_parent"
-        android:layout_marginLeft="30dip" >
+        android:layout_marginLeft="30dip"
+        android:visibility="gone"
+        >
 
         <TextView
             android:id="@+id/tiao"
@@ -33,14 +34,13 @@
         android:id="@+id/linearLayout1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginRight="10dp"
-        android:background="#ffffff"
+        android:background="@drawable/corners_bg"
         android:padding="5dp"
         android:orientation="horizontal" >
 
         <ImageView
-            android:layout_width="35dp"
-            android:layout_height="35dp"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
             android:layout_marginLeft="5dp"
             android:src="@drawable/ic_action_bargraph" />
 

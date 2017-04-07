@@ -4,68 +4,24 @@
         "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/layout/activity_history.xml"
     },
     {
-        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\build\\intermediates\\res\\merged\\debug\\layout\\recorddetial.xml",
-        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\src\\main\\res\\layout\\recorddetial.xml"
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/layout/abc_list_menu_item_radio.xml"
     },
     {
-        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/layout/userifo_listview.xml",
-        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/layout/userifo_listview.xml"
-    },
-    {
-        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\build\\intermediates\\res\\merged\\debug\\layout\\login.xml",
-        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\src\\main\\res\\layout\\login.xml"
-    },
-    {
-        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/layout/item_child.xml",
-        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/layout/item_child.xml"
-    },
-    {
-        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/layout/residemenu_item.xml",
-        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/layout/residemenu_item.xml"
-    },
-    {
-        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\build\\intermediates\\res\\merged\\debug\\layout\\residemenu.xml",
-        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\src\\main\\res\\layout\\residemenu.xml"
-    },
-    {
-        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_help.xml",
-        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\src\\main\\res\\layout\\activity_help.xml"
-    },
-    {
-        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/layout/xindian.xml",
-        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/layout/xindian.xml"
-    },
-    {
-        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_userinfo.xml",
-        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\src\\main\\res\\layout\\activity_userinfo.xml"
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/layout/activity_main.xml"
     },
     {
         "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/layout/activity_userinfo.xml",
         "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/layout/activity_userinfo.xml"
     },
     {
-        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_item.xml",
-        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\src\\main\\res\\layout\\listview_item.xml"
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/layout/activity_healthy_tips_detail.xml",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/layout/activity_healthy_tips_detail.xml"
     },
     {
-        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_parent.xml",
-        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\src\\main\\res\\layout\\item_parent.xml"
-    },
-    {
-        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\build\\intermediates\\res\\merged\\debug\\layout\\loading.xml",
-        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\src\\main\\res\\layout\\loading.xml"
-    },
-    {
-        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\build\\intermediates\\res\\merged\\debug\\layout\\regist.xml",
-        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\src\\main\\res\\layout\\regist.xml"
-    },
-    {
-        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\build\\intermediates\\res\\merged\\debug\\layout\\residemenu_item.xml",
-        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\src\\main\\res\\layout\\residemenu_item.xml"
-    },
-    {
-        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tab_layout.xml",
-        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\src\\main\\res\\layout\\tab_layout.xml"
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/layout/abc_action_bar_view_list_nav_layout.xml"
     },
     {
         "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/layout/panel_list_item.xml",
@@ -76,8 +32,108 @@
         "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/layout/activity_panel.xml"
     },
     {
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/layout/abc_action_bar_decor.xml",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/layout/abc_action_bar_decor.xml"
+    },
+    {
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/layout/activity_third.xml",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/layout/activity_third.xml"
+    },
+    {
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/layout/activity_cricle_progress.xml",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/layout/activity_cricle_progress.xml"
+    },
+    {
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/layout/abc_action_bar_decor_include.xml",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/layout/abc_action_bar_decor_include.xml"
+    },
+    {
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/layout/loading.xml",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/layout/loading.xml"
+    },
+    {
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_include.xml",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/layout/abc_activity_chooser_view_include.xml"
+    },
+    {
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/layout/activity_fourth.xml",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/layout/activity_fourth.xml"
+    },
+    {
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/layout/hrv.xml",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/layout/hrv.xml"
+    },
+    {
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/layout/activity_login.xml",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item.xml",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/layout/abc_action_mode_close_item.xml"
+    },
+    {
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/layout/abc_action_bar_home.xml",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/layout/abc_action_bar_home.xml"
+    },
+    {
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/layout/userifo_listview.xml",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/layout/userifo_listview.xml"
+    },
+    {
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/layout/abc_action_bar_decor_overlay.xml",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/layout/abc_action_bar_decor_overlay.xml"
+    },
+    {
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/layout/item_child.xml",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/layout/item_child.xml"
+    },
+    {
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/layout/residemenu_item.xml",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/layout/residemenu_item.xml"
+    },
+    {
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/layout/abc_action_bar_tabbar.xml",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/layout/abc_action_bar_tabbar.xml"
+    },
+    {
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/layout/xindian.xml",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/layout/xindian.xml"
+    },
+    {
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/layout/abc_screen.xml",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/layout/abc_screen.xml"
+    },
+    {
         "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/layout/listview_item.xml",
         "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/layout/listview_item.xml"
+    },
+    {
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/layout/item_health_tips.xml",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/layout/item_health_tips.xml"
     },
     {
         "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/layout/login.xml",
@@ -88,12 +144,28 @@
         "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/layout/calendar.xml"
     },
     {
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
         "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/layout/regist.xml",
         "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/layout/regist.xml"
     },
     {
-        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_child.xml",
-        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\src\\main\\res\\layout\\item_child.xml"
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/layout/abc_action_bar_tab.xml",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/layout/abc_action_bar_tab.xml"
+    },
+    {
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/layout/abc_search_view.xml"
     },
     {
         "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/layout/activity_help.xml",
@@ -108,48 +180,24 @@
         "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/layout/item_parent.xml"
     },
     {
-        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/layout/activity_cricle_progress.xml",
-        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/layout/activity_cricle_progress.xml"
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/layout/abc_action_menu_layout.xml"
     },
     {
-        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_panel.xml",
-        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\src\\main\\res\\layout\\activity_panel.xml"
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/layout/activity_first.xml",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/layout/activity_first.xml"
     },
     {
-        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\build\\intermediates\\res\\merged\\debug\\layout\\hrv.xml",
-        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\src\\main\\res\\layout\\hrv.xml"
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/layout/abc_action_bar_title_item.xml"
     },
     {
-        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\build\\intermediates\\res\\merged\\debug\\layout\\xindian.xml",
-        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\src\\main\\res\\layout\\xindian.xml"
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/layout/abc_expanded_menu_layout.xml"
     },
     {
-        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/layout/loading.xml",
-        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/layout/loading.xml"
-    },
-    {
-        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\build\\intermediates\\res\\merged\\debug\\layout\\calendar.xml",
-        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\src\\main\\res\\layout\\calendar.xml"
-    },
-    {
-        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\build\\intermediates\\res\\merged\\debug\\layout\\userifo_listview.xml",
-        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\src\\main\\res\\layout\\userifo_listview.xml"
-    },
-    {
-        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
-        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\src\\main\\res\\layout\\activity_login.xml"
-    },
-    {
-        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\build\\intermediates\\res\\merged\\debug\\layout\\panel_list_item.xml",
-        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\src\\main\\res\\layout\\panel_list_item.xml"
-    },
-    {
-        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/layout/hrv.xml",
-        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/layout/hrv.xml"
-    },
-    {
-        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_cricle_progress.xml",
-        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\src\\main\\res\\layout\\activity_cricle_progress.xml"
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/layout/support_simple_spinner_dropdown_item.xml"
     },
     {
         "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/layout/recorddetial.xml",
@@ -158,13 +206,5 @@
     {
         "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/layout/tab_layout.xml",
         "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/layout/tab_layout.xml"
-    },
-    {
-        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_history.xml",
-        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/C:\\Users\\neal\\StudioProjects\\HRV_1.5\\app\\src\\main\\res\\layout\\activity_history.xml"
-    },
-    {
-        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/layout/activity_login.xml",
-        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/layout/activity_login.xml"
     }
 ]

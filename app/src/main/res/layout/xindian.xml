@@ -3,36 +3,44 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical" >
+
     <RelativeLayout
-        
+        android:id="@+id/tool_bar"
         android:layout_width="match_parent"
-        android:layout_height="50dip"
-        android:background="#4fa5d5"
-        >
+        android:layout_height="50dp"
+        android:background="#4ca650">
+        <Button
+            android:id="@+id/xinxi"
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dip"
+            android:layout_marginTop="15dip"
+            android:background="@drawable/xinxi"
+            android:visibility="gone" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="心电图"
+            android:textColor="#fff"
+            android:textSize="20sp" />
 
         <Button
             android:id="@+id/back"
-            android:layout_width="30dip"
-            android:layout_height="30dip"
-            android:background="@drawable/backha" 
-            android:layout_marginTop="10dip"
-            android:layout_marginBottom="10dip"
-            android:layout_alignParentLeft="true"
-            android:layout_marginLeft="10dip" 
-            />
-
-        <TextView
-            android:id="@+id/xindian"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignBottom="@+id/back"
-            android:layout_centerHorizontal="true"
-            android:text="心电图"
-            android:textColor="#ffffff"
-            android:textSize="20dp" />
-
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/backha"
+            android:onClick="onClick" />
 
     </RelativeLayout>
+
     <TextView 
         android:layout_width="match_parent"
         android:layout_height="10dip"

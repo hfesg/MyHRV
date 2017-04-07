@@ -42,6 +42,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.hrv.MainActivity;
 import com.example.hrv.R;
 import com.hrv.HRV;
 import com.loopj.android.http.AsyncHttpClient;
@@ -388,7 +389,7 @@ public class LoginActivity extends Activity implements OnClickListener,
 	 */
 	protected void sendData(String user) {
 		Intent intent = new Intent();
-		intent.setClass(LoginActivity.this, HRV.class);
+		intent.setClass(LoginActivity.this, MainActivity.class);
 		intent.putExtra("user_name", user);
 		startActivity(intent);
 		try {

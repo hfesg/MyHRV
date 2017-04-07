@@ -50,6 +50,7 @@ import android.widget.Toast;
 
 import com.cqupt.filter.ECGFilter;
 import com.cqupt.filter.SmoothFilter;
+import com.example.hrv.FirstActivity;
 import com.example.hrv.R;
 import com.ftdi.j2xx.D2xxManager;
 import com.ftdi.j2xx.FT_Device;
@@ -183,6 +184,10 @@ public class HRV extends FragmentActivity implements View.OnClickListener {
 	private HandlerThread handlerThread;
 	private Handler realHandler;
 
+
+
+
+
 	@SuppressLint("NewApi")
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -190,6 +195,9 @@ public class HRV extends FragmentActivity implements View.OnClickListener {
 		// 设置不显示标题栏
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		setContentView(R.layout.hrv);
+
+
+
 
 		mContext = this;
 		fenbian = getPixe();
@@ -247,6 +255,8 @@ public class HRV extends FragmentActivity implements View.OnClickListener {
 
 		registerReceiver(endReceiver, filter);
 	}
+
+
 
 	/**
 	 * 初始化界面的相关控件
@@ -523,8 +533,8 @@ public class HRV extends FragmentActivity implements View.OnClickListener {
 				raf.close();
 
 			} catch (Exception ex) {
-				Toast.makeText(mContext, "文件读取失败", 1000).show();
-			}
+                Toast.makeText(mContext, "文件读取失败", Toast.LENGTH_SHORT).show();
+            }
 		}
 		return data;
 
@@ -733,7 +743,7 @@ public class HRV extends FragmentActivity implements View.OnClickListener {
 	/**
 	 * 显示实时心率
 	 * 
-	 * @param 实时心率
+	 * @param data 实时心率
 	 */
 	public void showRealHR(int data) {
 		int baiwei = 0;
@@ -767,7 +777,7 @@ public class HRV extends FragmentActivity implements View.OnClickListener {
 
 		// attach to current activity;
 		resideMenu = new ResideMenu(this);
-		resideMenu.setBackground(R.drawable.menu_background);
+//		resideMenu.setBackground(R.drawable.menu_background);
 		resideMenu.attachToActivity(this);
 		// valid scale factor is between 0.0f and 1.0f. leftmenu'width is
 		// 150dip.
@@ -1381,8 +1391,8 @@ public class HRV extends FragmentActivity implements View.OnClickListener {
 				}
 			});
 		} catch (FileNotFoundException e) {
-			Toast.makeText(HRV.this, "上传文件不存在！", 1000).show();
-		}
+            Toast.makeText(mContext, "上传文件不存在", Toast.LENGTH_SHORT).show();
+        }
 	}
 
 	/**
@@ -1663,7 +1673,7 @@ public class HRV extends FragmentActivity implements View.OnClickListener {
 		/**
 		 * 将字节数组中的字节装换为十六进制字符
 		 * 
-		 * @param 从串口读取到的字节
+		 * @param b 从串口读取到的字节
 		 * @throws Exception
 		 */
 		public void getHexString(byte[] b) throws Exception {
@@ -1680,7 +1690,7 @@ public class HRV extends FragmentActivity implements View.OnClickListener {
 		 * 判断分离:找到帧头为"C0 00 00"的数据帧(9个字节，其中前三个字节为帧头，中间三个字节为呼吸数据，最后3个为心电数据)
 		 * 提取最后三个字节即为心电数据
 		 * 
-		 * @param 十六进制的字符数据
+		 * @param r 十六进制的字符数据
 		 */
 		public void parseData(String r) {
 
@@ -1724,7 +1734,6 @@ public class HRV extends FragmentActivity implements View.OnClickListener {
 				respData.add((float) Integer.parseInt(respStr_temp, 16));
 				respYnn[resp_num] = (float) Integer.parseInt(respStr_temp, 16);
 				resp_num++;
-
 				NUM = 6;
 				return;
 			}

@@ -99,9 +99,9 @@ public class BarchartView extends View{
    	              for (int i = 0; i < 4; i++) { 
    	            	 switch (i) {
 						case 0:
-						case 2:paint.setColor(Color.GREEN) ; break;
+						case 2:paint.setColor(Color.parseColor("#71B691")) ; break;
 						case 1:
-						case 3: paint.setColor(Color.BLUE) ; break;
+						case 3: paint.setColor(Color.parseColor("#D0E9B9")) ; break;
 						default:
 							break;
 						}

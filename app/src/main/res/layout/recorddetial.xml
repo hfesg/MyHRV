@@ -3,168 +3,272 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#efefef"
-    android:orientation="vertical" >
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#4ca650">
+
+        <Button
+            android:id="@+id/caidan_1"
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="15dip"
+            android:layout_marginTop="15dip"
+            android:background="@drawable/btn_caidan_1"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="45dip"
+            android:layout_height="30dip"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="50dip"
+            android:layout_marginTop="15dip"
+            android:background="@drawable/icon_logo"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/xinxi"
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dip"
+            android:layout_marginTop="15dip"
+            android:background="@drawable/xinxi"
+            android:visibility="gone" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="分析报告"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/fanhui"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/backha"
+            android:onClick="onClick" />
+
+        <Button
+            android:id="@+id/xindian"
+            android:layout_width="35dip"
+            android:layout_height="35dip"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="5dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="5dip"
+            android:background="@drawable/ecglogo" />
+    </RelativeLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:background="#efefef"
-        android:orientation="vertical" >
+        android:orientation="vertical">
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="50dip"
-            android:background="#4fa5d5" >
-
-            <Button
-                android:id="@+id/fanhui"
-                android:layout_width="30dip"
-                android:layout_height="30dip"
-                android:layout_alignParentLeft="true"
-                android:layout_marginBottom="10dip"
-                android:layout_marginLeft="10dip"
-                android:layout_marginTop="10dip"
-                android:background="@drawable/backha" />
-
-            <Button
-                android:id="@+id/xindian"
-                android:layout_width="35dip"
-                android:layout_height="35dip"
-                android:layout_alignParentRight="true"
-                android:layout_marginBottom="5dip"
-                android:layout_marginRight="10dip"
-                android:layout_marginTop="5dip"
-                android:background="@drawable/ecglogo" />
-
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true"
-                android:background="#4fa5d5"
-                android:text="分析报告"
-                android:textColor="#ffffff"
-                android:textSize="20dip" />
-        </RelativeLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/corners_bg_2"
+            >
+        <TextView
+            android:id="@+id/test_time"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="5dp"
-            android:layout_marginRight="5dp"
+            android:text="2017年3月13日 13:40"
+            android:textColor="#88abc7"
+            android:textSize="12sp"
+            android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
-            android:background="#ffffff"
-            android:gravity="center_vertical"
-            android:orientation="horizontal"
-            android:padding="8dp" >
-
-            <ImageView
-                android:layout_width="30dip"
-                android:layout_height="30dip"
-                android:layout_marginLeft="10dip"
-                android:gravity="center_vertical"
-                android:src="@drawable/ic_action_calendar_day" />
-
-            <TextView
-                android:layout_width="60dip"
-                android:layout_height="30dip"
-                android:layout_marginLeft="5dip"
-                android:gravity="center_vertical"
-                android:text="@string/date"
-                android:textColor="#00BFFF"
-                android:textSize="23dp" />
-
-            <TextView
-                android:id="@+id/date"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="50dip"
-                android:gravity="center_vertical"
-                android:text="2016年03月01日"
-                android:textSize="20dp" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
+            />
+        <TextView
+            android:id="@+id/tv_text_jiaolv"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="5dp"
-            android:layout_marginRight="5dp"
-            android:layout_marginTop="5dp"
-            android:background="#ffffff"
-            android:gravity="center_vertical"
-            android:orientation="horizontal"
-            android:padding="8dp" >
+            android:text="焦虑值"
+            android:textSize="16sp"
+            android:textColor="#8ea5b4"
+            android:layout_below="@+id/test_time"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
 
-            <ImageView
-                android:layout_width="30dip"
-                android:layout_height="30dip"
-                android:layout_marginLeft="10dip"
-                android:gravity="center_vertical"
-                android:src="@drawable/ic_action_clock" />
+            />
+         <TextView
+             android:id="@+id/jiaolv"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/tv_text_jiaolv"
+             android:text="00.00"
+             android:textSize="40sp"
+             android:textColor="#ff5d50"
+             android:layout_marginLeft="10dp"
 
-            <TextView
-                android:layout_width="60dip"
-                android:layout_height="30dip"
-                android:layout_marginLeft="5dip"
-                android:gravity="center_vertical"
-                android:text="@string/time"
-                android:textColor="#00BFFF"
-                android:textSize="23dp" />
+             />
 
-            <TextView
-                android:id="@+id/time"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="50dip"
-                android:gravity="center_vertical"
-                android:text="19时25分"
-                android:textSize="20dp" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="5dp"
-            android:layout_marginRight="5dp"
-            android:layout_marginTop="5dp"
-            android:background="#ffffff"
-            android:gravity="center_vertical"
-            android:orientation="horizontal"
-            android:padding="8dp" >
-
-            <ImageView
-                android:layout_width="30dip"
-                android:layout_height="30dip"
-                android:layout_gravity="center_vertical"
-                android:layout_marginLeft="10dip"
-                android:src="@drawable/ic_action_heart_blue" />
-
-            <TextView
-                android:layout_width="60dip"
-                android:layout_height="30dip"
-                android:layout_marginLeft="5dip"
-                android:gravity="center_vertical"
-                android:text="@string/xinlv"
-                android:textColor="#00BFFF"
-                android:textSize="23dp" />
+          <TextView
+              android:id="@+id/tv_danwei_xinlv"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="次/min"
+              android:layout_alignBaseline="@+id/jiaolv"
+              android:layout_alignParentRight="true"
+              android:layout_marginRight="10dp"
+              android:textColor="#97aab6"
+              />
 
             <TextView
                 android:id="@+id/xinlv"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="50dip"
-                android:gravity="center_vertical"
-                android:text="@string/xinlvzhi"
-                android:textSize="20dp" />
-
+                android:text="000.00"
+                android:textSize="40sp"
+                android:textColor="#31a8fc"
+                android:layout_alignBaseline="@+id/jiaolv"
+                android:layout_toLeftOf="@+id/tv_danwei_xinlv"
+                />
             <TextView
-                android:id="@+id/icon_min_2"
+                android:id="@+id/tv_text_xinlv"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="5dip"
-                android:gravity="center_vertical"
-                android:text="@string/min_2" />
-        </LinearLayout>
+                android:text="心率"
+                android:textColor="#8ea5b4"
+                android:textSize="16sp"
+                android:layout_alignBaseline="@+id/tv_text_jiaolv"
+                android:layout_alignLeft="@+id/xinlv"
+                />
+        </RelativeLayout>
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="5dp"-->
+            <!--android:layout_marginRight="5dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:background="#ffffff"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:padding="8dp">-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="30dip"-->
+                <!--android:layout_height="30dip"-->
+                <!--android:layout_marginLeft="10dip"-->
+                <!--android:gravity="center_vertical"-->
+                <!--android:src="@drawable/ic_action_calendar_day" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="60dip"-->
+                <!--android:layout_height="30dip"-->
+                <!--android:layout_marginLeft="5dip"-->
+                <!--android:gravity="center_vertical"-->
+                <!--android:text="@string/date"-->
+                <!--android:textColor="#00BFFF"-->
+                <!--android:textSize="23dp" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/date"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="50dip"-->
+                <!--android:gravity="center_vertical"-->
+                <!--android:text="2016年03月01日"-->
+                <!--android:textSize="20dp" />-->
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="5dp"-->
+            <!--android:layout_marginRight="5dp"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:background="#ffffff"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:padding="8dp">-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="30dip"-->
+                <!--android:layout_height="30dip"-->
+                <!--android:layout_marginLeft="10dip"-->
+                <!--android:gravity="center_vertical"-->
+                <!--android:src="@drawable/ic_action_clock" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="60dip"-->
+                <!--android:layout_height="30dip"-->
+                <!--android:layout_marginLeft="5dip"-->
+                <!--android:gravity="center_vertical"-->
+                <!--android:text="@string/time"-->
+                <!--android:textColor="#00BFFF"-->
+                <!--android:textSize="23dp" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/time"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="50dip"-->
+                <!--android:gravity="center_vertical"-->
+                <!--android:text="19时25分"-->
+                <!--android:textSize="20dp" />-->
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="5dp"-->
+            <!--android:layout_marginRight="5dp"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:background="#ffffff"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:padding="8dp">-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="30dip"-->
+                <!--android:layout_height="30dip"-->
+                <!--android:layout_gravity="center_vertical"-->
+                <!--android:layout_marginLeft="10dip"-->
+                <!--android:src="@drawable/ic_action_heart_blue" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="60dip"-->
+                <!--android:layout_height="30dip"-->
+                <!--android:layout_marginLeft="5dip"-->
+                <!--android:gravity="center_vertical"-->
+                <!--android:text="@string/xinlv"-->
+                <!--android:textColor="#00BFFF"-->
+                <!--android:textSize="23dp" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/xinlv"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="50dip"-->
+                <!--android:gravity="center_vertical"-->
+                <!--android:text="@string/xinlvzhi"-->
+                <!--android:textSize="20dp" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/icon_min_2"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="5dip"-->
+                <!--android:gravity="center_vertical"-->
+                <!--android:text="@string/min_2" />-->
+        <!--</LinearLayout>-->
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -172,10 +276,10 @@
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:layout_marginTop="5dp"
-            android:background="#ffffff"
+            android:background="@drawable/corners_bg_2"
             android:gravity="center_vertical"
             android:orientation="horizontal"
-            android:padding="8dp" >
+            android:padding="8dp">
 
             <ImageView
                 android:layout_width="30dip"
@@ -199,112 +303,120 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="50dip"
                 android:gravity="center_vertical"
-                android:text="000"
-                android:textSize="20dp" />
+                android:text="18"
+                android:textSize="20dp"
+
+                />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dip"
                 android:gravity="center_vertical"
+                android:textColor="#97aab6"
                 android:text="@string/min_2" />
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="5dp"
-            android:layout_marginRight="5dp"
-            android:layout_marginTop="5dp"
-            android:background="#ffffff"
-            android:gravity="center_vertical"
-            android:orientation="horizontal"
-            android:padding="8dp" >
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="5dp"-->
+            <!--android:layout_marginRight="5dp"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:background="#ffffff"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:padding="8dp">-->
 
-            <ImageView
-                android:layout_width="30dip"
-                android:layout_height="30dip"
-                android:layout_marginLeft="10dip"
-                android:gravity="center_vertical"
-                android:src="@drawable/ic_action_emo_angry" />
+            <!--<ImageView-->
+                <!--android:layout_width="30dip"-->
+                <!--android:layout_height="30dip"-->
+                <!--android:layout_marginLeft="10dip"-->
+                <!--android:gravity="center_vertical"-->
+                <!--android:src="@drawable/ic_action_emo_angry" />-->
 
-            <TextView
-                android:layout_width="60dip"
-                android:layout_height="30dip"
-                android:layout_marginLeft="5dip"
-                android:gravity="center_vertical"
-                android:text="@string/jiaolv"
-                android:textColor="#00BFFF"
-                android:textSize="23dp" />
+            <!--<TextView-->
+                <!--android:layout_width="60dip"-->
+                <!--android:layout_height="30dip"-->
+                <!--android:layout_marginLeft="5dip"-->
+                <!--android:gravity="center_vertical"-->
+                <!--android:text="@string/jiaolv"-->
+                <!--android:textColor="#00BFFF"-->
+                <!--android:textSize="23dp" />-->
 
-            <TextView
-                android:id="@+id/jiaolv"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="50dip"
-                android:gravity="center_vertical"
-                android:text="@string/jiaolvzhi"
-                android:textSize="20dp" />
-        </LinearLayout>
+            <!--<TextView-->
+                <!--android:id="@+id/jiaolv"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="50dip"-->
+                <!--android:gravity="center_vertical"-->
+                <!--android:text="@string/jiaolvzhi"-->
+                <!--android:textSize="20dp" />-->
+        <!--</LinearLayout>-->
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dip"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <TabHost
                 android:id="@+id/t1"
                 android:layout_width="fill_parent"
-                android:layout_height="match_parent" >
+                android:layout_height="match_parent">
 
                 <LinearLayout
                     android:id="@+id/layout1"
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
-                    android:orientation="vertical" >
+                    android:orientation="vertical">
 
                     <TabWidget
                         android:id="@android:id/tabs"
                         android:layout_width="match_parent"
-                        android:layout_height="50dip" >
-                    </TabWidget>
+                        android:layout_height="50dip"
+                        android:background="#77e29f"
+                        ></TabWidget>
 
                     <FrameLayout
                         android:id="@android:id/tabcontent"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content" 
+                        android:layout_height="wrap_content"
                         android:layout_marginTop="5dp">
 
                         <LinearLayout
                             android:id="@+id/tabview1"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:orientation="vertical" >
+                            android:orientation="vertical">
 
                             <LinearLayout
                                 android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
+                                android:layout_height="50dp"
                                 android:layout_marginLeft="5dp"
                                 android:layout_marginRight="5dp"
                                 android:layout_marginTop="5dp"
-                                android:background="#ffffff"
+                                android:background="@drawable/corners_bg_2"
                                 android:gravity="center_vertical"
                                 android:orientation="horizontal"
-                                android:padding="8dp" >
+                                >
 
+                                <!--<ImageView-->
+                                    <!--android:layout_width="10dip"-->
+                                    <!--android:layout_height="10dip"-->
+                                    <!--android:layout_marginLeft="10dip"-->
+                                    <!--android:gravity="center_vertical"-->
+                                    <!--android:src="@drawable/btn_kaishi_1" />-->
                                 <ImageView
-                                    android:layout_width="10dip"
-                                    android:layout_height="10dip"
-                                    android:gravity="center_vertical"
-                                    android:layout_marginLeft="10dip"
-                                    android:src="@drawable/btn_kaishi_1" />
-
+                                    android:layout_width="10dp"
+                                    android:layout_height="match_parent"
+                                    android:background="@drawable/cornners_iv_2"
+                                    />
                                 <TextView
                                     android:layout_width="80dip"
                                     android:layout_height="30dip"
-                                    android:gravity="center_vertical"
                                     android:layout_marginLeft="25dip"
+                                    android:gravity="center_vertical"
                                     android:text="@string/SDNN"
                                     android:textColor="#00BFFF"
                                     android:textSize="23dp" />
@@ -313,35 +425,34 @@
                                     android:id="@+id/SDNN"
                                     android:layout_width="70dip"
                                     android:layout_height="30dip"
-                                    android:gravity="center_vertical"
                                     android:layout_marginLeft="50dip"
+                                    android:gravity="center_vertical"
                                     android:text="@string/SDNNZHI"
                                     android:textSize="20dp" />
                             </LinearLayout>
 
                             <LinearLayout
                                 android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
+                                android:layout_height="50dp"
                                 android:layout_marginLeft="5dp"
                                 android:layout_marginRight="5dp"
                                 android:layout_marginTop="5dp"
-                                android:background="#ffffff"
+                                android:background="@drawable/corners_bg_2"
                                 android:gravity="center_vertical"
                                 android:orientation="horizontal"
-                                android:padding="8dp" >
+                                >
 
                                 <ImageView
-                                    android:layout_width="10dip"
-                                    android:layout_height="10dip"
-                                    android:gravity="center_vertical"
-                                    android:layout_marginLeft="10dip"
-                                    android:src="@drawable/btn_kaishi_1" />
+                                    android:layout_width="10dp"
+                                    android:layout_height="match_parent"
+                                    android:background="@drawable/cornners_iv_2"
+                                    />
 
                                 <TextView
                                     android:layout_width="80dip"
                                     android:layout_height="30dip"
-                                    android:gravity="center_vertical"
                                     android:layout_marginLeft="25dip"
+                                    android:gravity="center_vertical"
                                     android:text="@string/NN"
                                     android:textColor="#00BFFF"
                                     android:textSize="23dp" />
@@ -350,35 +461,34 @@
                                     android:id="@+id/NN"
                                     android:layout_width="70dip"
                                     android:layout_height="30dip"
-                                    android:gravity="center_vertical"
                                     android:layout_marginLeft="50dip"
+                                    android:gravity="center_vertical"
                                     android:text="@string/NNZHI"
                                     android:textSize="20dp" />
                             </LinearLayout>
 
                             <LinearLayout
                                 android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
+                                android:layout_height="50dp"
                                 android:layout_marginLeft="5dp"
                                 android:layout_marginRight="5dp"
                                 android:layout_marginTop="5dp"
-                                android:background="#ffffff"
+                                android:background="@drawable/corners_bg_2"
                                 android:gravity="center_vertical"
                                 android:orientation="horizontal"
-                                android:padding="8dp" >
+                                >
 
                                 <ImageView
-                                    android:layout_width="10dip"
-                                    android:layout_height="10dip"
-                                    android:gravity="center_vertical"
-                                    android:layout_marginLeft="10dip"
-                                    android:src="@drawable/btn_kaishi_1" />
+                                    android:layout_width="10dp"
+                                    android:layout_height="match_parent"
+                                    android:background="@drawable/cornners_iv_2"
+                                    />
 
                                 <TextView
                                     android:layout_width="80dip"
                                     android:layout_height="30dip"
-                                    android:gravity="center_vertical"
                                     android:layout_marginLeft="25dip"
+                                    android:gravity="center_vertical"
                                     android:text="@string/PNN"
                                     android:textColor="#00BFFF"
                                     android:textSize="23dp" />
@@ -387,35 +497,34 @@
                                     android:id="@+id/PNN"
                                     android:layout_width="70dip"
                                     android:layout_height="30dip"
-                                    android:gravity="center_vertical"
                                     android:layout_marginLeft="50dip"
+                                    android:gravity="center_vertical"
                                     android:text="@string/PNNZHI"
                                     android:textSize="20dp" />
                             </LinearLayout>
 
                             <LinearLayout
                                 android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
+                                android:layout_height="50dp"
                                 android:layout_marginLeft="5dp"
                                 android:layout_marginRight="5dp"
                                 android:layout_marginTop="5dp"
-                                android:background="#ffffff"
+                                android:background="@drawable/corners_bg_2"
                                 android:gravity="center_vertical"
                                 android:orientation="horizontal"
-                                android:padding="8dp" >
+                                >
 
                                 <ImageView
-                                    android:layout_width="10dip"
-                                    android:layout_height="10dip"
-                                    android:gravity="center_vertical"
-                                    android:layout_marginLeft="10dip"
-                                    android:src="@drawable/btn_kaishi_1" />
+                                    android:layout_width="10dp"
+                                    android:layout_height="match_parent"
+                                    android:background="@drawable/cornners_iv_2"
+                                    />
 
                                 <TextView
                                     android:layout_width="80dip"
                                     android:layout_height="30dip"
-                                    android:gravity="center_vertical"
                                     android:layout_marginLeft="25dip"
+                                    android:gravity="center_vertical"
                                     android:text="@string/rMSSD"
                                     android:textColor="#00BFFF"
                                     android:textSize="23dp" />
@@ -424,8 +533,8 @@
                                     android:id="@+id/rMSSD"
                                     android:layout_width="70dip"
                                     android:layout_height="30dip"
-                                    android:gravity="center_vertical"
                                     android:layout_marginLeft="50dip"
+                                    android:gravity="center_vertical"
                                     android:text="@string/rMSSDZHI"
                                     android:textSize="20dp" />
                             </LinearLayout>
@@ -436,7 +545,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:background="#ffffff"
-                            android:orientation="vertical" >
+                            android:orientation="vertical">
 
                             <LinearLayout
                                 android:id="@+id/pinyutu"
@@ -452,7 +561,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:background="#ffffff"
-                            android:orientation="vertical" >
+                            android:orientation="vertical">
 
                             <LinearLayout
                                 android:id="@+id/sandiantu"
@@ -466,11 +575,11 @@
             </TabHost>
         </LinearLayout>
     </LinearLayout>
-    <LinearLayout 
+
+    <LinearLayout
         android:id="@+id/bitmap_layout"
         android:layout_width="match_parent"
         android:layout_height="5dp"
-        android:orientation="vertical"
-        ></LinearLayout>
+        android:orientation="vertical"></LinearLayout>
 
 </LinearLayout>

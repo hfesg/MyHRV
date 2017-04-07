@@ -2,13 +2,12 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#eee"
     android:orientation="vertical" >
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="45dp"
-        android:background="#f75b47"
+        android:background="#4ca650"
         android:orientation="horizontal" >
 
         <Button
@@ -243,8 +242,8 @@
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginTop="20dp"
-        android:background="@drawable/pic_login_bg"
         android:text="注册"
+        android:background="#82c685"
         android:textColor="#FFFFFF"
         android:textSize="19sp" />
 
@@ -264,11 +263,10 @@
             android:textColor="#A6A7A6"
             android:textSize="15dp" />
 
-        <Button
+        <TextView
             android:id="@+id/btn_statement"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="#eee"
             android:text="《使用声明》"
             android:textColor="#4fa5d5"
             android:textSize="15dp" />

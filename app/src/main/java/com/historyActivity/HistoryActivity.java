@@ -69,14 +69,7 @@ public class HistoryActivity extends Activity {
 				HistoryActivity.this.finish();	
 			}
 		});
-		
-//		calendar.setOnClickListener(new OnClickListener() {
-//			
-//			@Override
-//			public void onClick(View arg0) {
-////				Intent intent = new Intent(HistoryActivity.this,);	
-//			}
-//		});
+
 		
 		//初始化数据
 		initData();
@@ -345,7 +338,9 @@ public class HistoryActivity extends Activity {
                 LayoutInflater inflater = (LayoutInflater) HistoryActivity.this
                         .getSystemService(mContext.LAYOUT_INFLATER_SERVICE);
                 convertView = inflater.inflate(R.layout.item_child, null);
-            }
+				convertView.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,100));
+
+			}
             TextView tv = (TextView) convertView
                     .findViewById(R.id.child_textview);
             tv.setText(info);
@@ -372,11 +367,12 @@ public class HistoryActivity extends Activity {
                 LayoutInflater inflater = (LayoutInflater) HistoryActivity.this
                         .getSystemService(mContext.LAYOUT_INFLATER_SERVICE);
                 convertView = inflater.inflate(R.layout.item_parent, null);
+				convertView.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT,150));
             }
             TextView tv = (TextView) convertView
                     .findViewById(R.id.parent_textview);
             tv.setText(HistoryActivity.this.parentList.get(groupPosition));
-            ImageView heart = (ImageView)convertView.findViewById(R.id.image_heart);
+            //ImageView heart = (ImageView)convertView.findViewById(R.id.image_heart);
             return convertView;
 		}
 

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_running"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:id="@+id/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#4ca650"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="不如一动"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/fanhui"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/backha"
+            />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_margin="15dp"
+            app:cardBackgroundColor="@color/running_main_bg"
+            app:cardCornerRadius="3dp"
+            app:cardElevation="5dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                >
+
+                <TextView
+                    android:id="@+id/tv_begin_running_distance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7.28"
+                    android:textColor="@color/number"
+                    android:textSize="50sp"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_unit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/tv_begin_running_distance"
+                    android:layout_alignBottom="@+id/tv_begin_running_distance"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/tv_begin_running_distance"
+                    android:text="km"
+                    android:textColor="@color/running_text_small"/>
+
+                <View
+                    android:id="@+id/vi_divider"
+                    android:layout_width="0.1dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_toRightOf="@+id/tv_unit"
+                    android:background="@color/running_divider"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_begin_running_duration"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/tv_begin_running_distance"
+                    android:layout_toRightOf="@+id/vi_divider"
+                    android:text="01:22:48"
+                    android:textColor="@color/number"
+                    android:textSize="24sp"
+                    />
+
+                <ImageView
+                    android:id="@+id/iv_begin_running_duration"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_toRightOf="@+id/vi_divider"
+                    android:src="@drawable/pic_begin_running_during_time"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_during_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:layout_toRightOf="@+id/iv_begin_running_duration"
+                    android:text="用时"
+
+                    android:textColor="@color/running_text_small"
+                    android:textSize="13sp"
+
+                    />
+
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <com.amap.api.maps2d.MapView
+            android:id="@+id/map_running"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="10dp"
+            >
+
+            <ImageView
+                android:id="@+id/iv_stop_running"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_centerInParent="true"
+
+                android:clickable="true"
+                android:src="@drawable/pic_begin_running_stop_bg"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="停止"
+                android:textColor="@color/running_button_font"
+                android:textSize="18sp"
+                />
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+

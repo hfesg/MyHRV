@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/layout-v11/abc_action_bar_decor.xml",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/layout-v11/abc_action_bar_decor.xml"
+    },
+    {
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/layout-v11/item_health_tips.xml",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/layout-v11/item_health_tips.xml"
+    }
+]

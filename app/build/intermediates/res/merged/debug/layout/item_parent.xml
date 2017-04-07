@@ -1,43 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="100dp"
     android:layout_marginBottom="20dp"
     android:layout_marginTop="20dp"
-    android:background="#FFFFFF"
-    android:gravity="center_vertical" >
+    android:background="@drawable/corners_bg"
+    android:gravity="center_vertical"
 
-    <FrameLayout
-        android:layout_width="40dp"
+    >
+
+    <ImageView
+        android:layout_width="10dp"
         android:layout_height="match_parent"
-        android:layout_marginLeft="30dip" >
-
-        <TextView
-            android:id="@+id/group_tiao"
-            android:layout_width="2dip"
-            android:layout_height="fill_parent"
-            android:layout_gravity="center"
-            android:background="#808080" />
-
-        <ImageView
-            android:id="@+id/imageView1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_vertical"
-            android:layout_marginLeft="5dp"
-            android:layout_marginRight="5dp"
-            android:src="@drawable/ic_action_location_2" >
-        </ImageView>
-    </FrameLayout>
-
-    <LinearLayout
-        android:id="@+id/linearLayout1"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_vertical"
-        android:orientation="horizontal"
-        android:paddingBottom="5dip"
-        android:paddingTop="5dip" >
+        android:background="@drawable/corners_iv"
+        >
+    </ImageView>
 
         <TextView
             android:id="@+id/parent_textview"
@@ -50,12 +27,5 @@
             android:textSize="18sp" >
         </TextView>
 
-        <ImageView
-            android:id="@+id/image_heart"
-            android:layout_width="35dp"
-            android:layout_height="35dp"
-            android:layout_marginLeft="20dp"
-            android:src="@drawable/ic_action_heart" />
-    </LinearLayout>
 
 </LinearLayout>

@@ -5,6 +5,7 @@ import java.text.DecimalFormat;
 import android.annotation.SuppressLint;
 import android.app.ActivityGroup;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
 import android.util.Log;
@@ -24,7 +25,7 @@ import com.Rwave.XYChartView;
 import com.example.hrv.R;
 
 public class RecordDetial extends ActivityGroup implements View.OnClickListener {
-
+	private TextView testTime;
 	private String inferDatas;
 	private String sandianDatas;
 	private String pointStr;
@@ -97,9 +98,11 @@ public class RecordDetial extends ActivityGroup implements View.OnClickListener 
 		for (int i = 0; i < inferData.length; i++) {
 			inferData[i] = (TextView) findViewById(inferDataViews[i]);
 		}
-		inferTime = (TextView) findViewById(R.id.time);
+//		inferTime = (TextView) findViewById(R.id.time);
 		btnxin = (Button) findViewById(R.id.xindian);
-		dateText = (TextView) findViewById(R.id.date);
+//		dateText = (TextView) findViewById(R.id.date);
+
+		testTime = (TextView) findViewById(R.id.test_time);
 		btnxin.setOnClickListener(new OnClickListener() {
 
 			@Override
@@ -120,8 +123,9 @@ public class RecordDetial extends ActivityGroup implements View.OnClickListener 
 		pointStr = intent.getStringExtra("pointStr");
 		dat = intent.getStringExtra("date");
 		tim = intent.getStringExtra("time");
-		inferTime.setText(tim);
-		dateText.setText(dat);
+		testTime.setText(dat+" "+tim);
+//		inferTime.setText(tim);
+//		dateText.setText(dat);
 
 		if (hasFinished.equals("down")) {
 			// 结束测试界面
@@ -145,7 +149,11 @@ public class RecordDetial extends ActivityGroup implements View.OnClickListener 
 //		Double score = Double.valueOf(df.format(s));
 
 		// 呼吸
+
 		respRate = Double.valueOf(df.format(Double.parseDouble(inferdatas[0])));
+        if(respRate==0){
+            respRate = 18;
+        }
 		// 心率
 		heartRate = Double.valueOf(df.format(Double.parseDouble(inferdatas[1])));
 		// 精神压力
@@ -230,10 +238,11 @@ public class RecordDetial extends ActivityGroup implements View.OnClickListener 
 		t.addTab(t.newTabSpec("2").setIndicator(tab2).setContent(R.id.tabview2));
 		t.addTab(t.newTabSpec("3").setIndicator(tab3).setContent(R.id.tabview3));
 		tabWidget.setBaselineAligned(true);
-		tabWidget.setBackgroundDrawable(getResources().getDrawable(
-				R.drawable.btn_anniu));
-		tab1.setBackgroundDrawable(getResources().getDrawable(
-				R.drawable.menu_bg));
+//		tabWidget.setBackgroundDrawable(getResources().getDrawable(
+//				R.drawable.pic_sign_up_text_bg));
+//		tab1.setBackgroundDrawable(getResources().getDrawable(
+//				R.drawable.menu_bg));
+        tab1.setBackgroundColor(Color.parseColor("#38a17c"));
 		for (int i = 0; i < tabWidget.getChildCount(); i++) {
 
 			tabWidget.getChildAt(i).getLayoutParams().width = 220;
@@ -273,9 +282,12 @@ public class RecordDetial extends ActivityGroup implements View.OnClickListener 
 	@SuppressWarnings("deprecation")
 	public void tabChanged(String tabId) {
 		if (index_tab != (Integer.valueOf(tabId) - 1)) {
-			tabWidget.getChildAt(Integer.valueOf(tabId) - 1)
-					.setBackgroundDrawable(
-							getResources().getDrawable(R.drawable.menu_bg));
+//			tabWidget.getChildAt(Integer.valueOf(tabId) - 1)
+//					.setBackgroundDrawable(
+//							getResources().getDrawable(R.drawable.menu_bg));
+            tabWidget.getChildAt(Integer.valueOf(tabId) - 1)
+                    .setBackgroundColor(Color.parseColor("#38a17c"));
+
 			tabWidget.getChildAt(index_tab).setBackgroundDrawable(null);
 			index_tab = Integer.valueOf(tabId) - 1;
 
@@ -287,6 +299,7 @@ public class RecordDetial extends ActivityGroup implements View.OnClickListener 
 		pinyu = (LinearLayout) findViewById(R.id.pinyutu);
 		sandian = (LinearLayout) findViewById(R.id.sandiantu);
 		barchartView = new BarchartView(this, pinYuData, hrvData);
+
 		xyChartView = new XYChartView(this, hrvData, meanRR);
 		pinyu.removeAllViews();
 		pinyu.addView(barchartView);

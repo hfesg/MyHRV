@@ -36,4 +36,8 @@ public class ClientUtil
 	{
 		return client;
 	}
+
+	public static void get(String url,AsyncHttpResponseHandler responseHandler){
+        client.get(getAbsoluteUrl(url), responseHandler);
+	}
 }

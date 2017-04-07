@@ -2,35 +2,90 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#efefef"
+    android:background="#e4e4e4"
     android:orientation="vertical" >
 
-    <LinearLayout
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:background="#4fa5d5"-->
+        <!--android:orientation="horizontal" >-->
+
+        <!--<Button-->
+            <!--android:id="@+id/fanhui"-->
+            <!--android:layout_width="30dp"-->
+            <!--android:layout_height="30dp"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:background="@drawable/backha"-->
+            <!--android:onClick="onClick" />-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_marginLeft="100dp"-->
+            <!--android:text="历史记录"-->
+            <!--android:textColor="#ffffff"-->
+            <!--android:textSize="20sp" />-->
+    <!--</LinearLayout>-->
+
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="#4fa5d5"
-        android:orientation="horizontal" >
-
+        android:background="#4ca650"
+        >
         <Button
-            android:id="@+id/fanhui"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_gravity="center_vertical"
-            android:layout_marginLeft="10dp"
-            android:background="@drawable/backha"
-            android:onClick="onClick" />
+            android:id="@+id/caidan_1"
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="15dip"
+            android:background="@drawable/btn_caidan_1"
+            android:layout_marginTop="15dip"
+            android:visibility="gone"
+            />
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="45dip"
+            android:layout_height="30dip"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="50dip"
+            android:background="@drawable/icon_logo"
+            android:layout_marginTop="15dip"
+            android:visibility="gone"
+            />
+        <Button
+            android:id="@+id/xinxi"
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dip"
+            android:layout_marginTop="15dip"
+            android:background="@drawable/xinxi"
+            android:visibility="gone"
+            />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginLeft="100dp"
             android:text="历史记录"
-            android:textColor="#ffffff"
-            android:textSize="20sp" />
-    </LinearLayout>
-
-
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            />
+        <Button
+            android:id="@+id/fanhui"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/backha"
+            android:layout_centerVertical="true"
+            android:onClick="onClick" />
+    </RelativeLayout>
     <ExpandableListView
         android:id="@+id/listview"
         android:layout_width="match_parent"
@@ -38,7 +93,6 @@
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
         android:layout_marginTop="10dp"
-        android:background="#ffffff"
         android:divider="#efefef"
         android:dividerHeight="2dp" >
     </ExpandableListView>
