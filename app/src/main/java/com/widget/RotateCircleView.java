@@ -27,7 +27,7 @@ import static android.graphics.Paint.Cap.ROUND;
 public class RotateCircleView extends ImageView {
     private static final String TAG = "CircleView";
     float i = 0f;
-    float speed = 1.5f; //旋转的速度
+    float speed = 0f; //旋转的速度
     float x = 0f;   //控制旋转的自变量
 
     Matrix mMatrix;
@@ -47,12 +47,12 @@ public class RotateCircleView extends ImageView {
     BlurMaskFilter filter1;
     BlurMaskFilter filter2;
     // 渐变圆周颜色数组
-    int[] gradientColorArray = new int[]{Color.parseColor("#E29587"),Color.parseColor("#D66D75")};
+    int[] gradientColorArray = new int[]{Color.parseColor("#E29587"), Color.parseColor("#D66D75")};
     //每种渐变颜色相对的比重
     float positions[] = {0.6f, 1.0f};
 
     String timeRest = "00.00";//设置剩余时间
-    
+
     float textSize;
 
     public RotateCircleView(Context context) {
@@ -134,7 +134,7 @@ public class RotateCircleView extends ImageView {
         mPaint.setTextAlign(Paint.Align.CENTER);
         mPaint.setStrokeCap(ROUND);
         mPaint.setTypeface(Config.TYPEFACES.DINMITTELSCHRIFTSTD);
-        canvas.drawText("04:34", layout_width / 2, layout_height / 2 + textHeight, mPaint);
+        canvas.drawText(timeRest, layout_width / 2, layout_height / 2 + textHeight, mPaint);
 
         mPaint.reset();
         mPaint.setColor(Color.parseColor("#878DAC"));
@@ -152,8 +152,14 @@ public class RotateCircleView extends ImageView {
         postInvalidateDelayed(20);
     }
 
-    public void setTimeRest(String min ,String sec) {
-        this.timeRest = min+":"+sec;
+    public void setTimeRest(String min, String sec) {
+        if (min == null) {
+            this.timeRest = this.timeRest.substring(0, 2) + ":" + sec;
+        } else if (sec == null) {
+            this.timeRest = min + ":" + this.timeRest.substring(3, 5);
+        } else {
+            this.timeRest = min + ":" + sec;
+        }
     }
 
     public void setSpeed(float speed) {

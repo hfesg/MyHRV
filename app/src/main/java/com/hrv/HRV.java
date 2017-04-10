@@ -45,6 +45,7 @@ import android.widget.FrameLayout;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -64,6 +65,7 @@ import com.roundProgressbar.BreathGuideActivity;
 import com.special.ResideMenu.ResideMenu;
 import com.special.ResideMenu.ResideMenuItem;
 import com.userInfoActivity.UserInfoActivity;
+import com.widget.RotateCircleView;
 
 @SuppressLint({ "InlinedApi", "NewApi" })
 public class HRV extends FragmentActivity implements View.OnClickListener {
@@ -184,9 +186,10 @@ public class HRV extends FragmentActivity implements View.OnClickListener {
 	private HandlerThread handlerThread;
 	private Handler realHandler;
 
+    private TextView xinlvData;//显示心率的TextView
+    private RotateCircleView mRotateCircleView;
 
-
-
+    private ImageView huxiyindao;//呼吸引导功能
 
 	@SuppressLint("NewApi")
 	@Override
@@ -194,7 +197,7 @@ public class HRV extends FragmentActivity implements View.OnClickListener {
 		super.onCreate(savedInstanceState);
 		// 设置不显示标题栏
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
-		setContentView(R.layout.hrv);
+		setContentView(R.layout.activity_first);
 
 
 
@@ -354,7 +357,23 @@ public class HRV extends FragmentActivity implements View.OnClickListener {
 		FtextView = (TextView) findViewById(R.id.fentext);
 		huadong = (TextView) findViewById(R.id.huadong);
 		jishixianshi = (LinearLayout) findViewById(R.id.jishi);
-	}
+        xinlvData = (TextView) findViewById(R.id.xinlv_data);
+        mRotateCircleView = (RotateCircleView) findViewById(R.id.rc_rest_time);
+
+        findViewById(R.id.huxiyindao).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(HRV.this,BreathGuideActivity.class));
+            }
+        });
+
+        findViewById(R.id.fanhui).setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View view) {
+               finish();
+           }
+       });
+    }
 
 	/**
 	 * 画图有关的控件
@@ -678,67 +697,9 @@ public class HRV extends FragmentActivity implements View.OnClickListener {
 			}
 			ave_top = sum / count * ms;
 			realRespRate = (int) (60 / ave_top * 1000);
-			// Message msg = new Message();
-			// msg.what = Constants.MESSAGE_REALRESPRATE;
 			myHandler.sendEmptyMessage(Constants.MESSAGE_REALRESPRATE);
 		}
-
-		// if(realRespRate != 0){
-		// huxi.setText("" + realRespRate);
-		// }
-
 	}
-
-//	/**
-//	 * 实时心率计算
-//	 * 
-//	 * @param 心电数据
-//	 */
-//	public void realHeartRate(float[] data) {
-//		float[] dif = new float[2000];
-//		int dif_max_index, R_index = 0, Mn = 10, Ri = 0;
-//		float R_TH = 0.0f, max, max1;
-//
-//		int[] R_index_data = new int[2];
-//		R_Location_shishi Rlocation = new R_Location_shishi();
-//		// compare_max_data用于求Ynn中前1000个数中的最大值。Rlocation.mean_R_TH先将Ynn中前1000个数从大到小排序，取前10个最大的求平均值
-//		// 取最后10个求平均值Rlocation.mean_R_TH返回两个平均值的差。R_TH最为判断阀值使用
-//		R_TH = (float) (Rlocation.compare_max_data(data) - 0.3 * Rlocation
-//				.mean_R_TH(data));
-//
-//		for (int i = 0; i < 2; i++) {
-//			if (i == 0) {
-//				max = Rlocation.compare_max_in_data(data, Mn);
-//				while (max < R_TH) {
-//					Mn = Mn + 20;
-//					max = Rlocation.compare_max_in_data(data, Mn);
-//				}
-//				dif = Rlocation.R_dif(data, Mn); // 计算差分
-//				dif_max_index = Rlocation.compare_R_dif_data(dif); // 计算差分值中的最大值，并返回最大值的点的横坐标
-//				R_index = Rlocation.R_adr_data(data, dif_max_index); // 计算R波的最大值点，并返回最大值点的横坐标
-//				R_index_data[i] = R_index;
-//				Ri++;
-//				Mn = Mn + 350;
-//			}
-//			if (i == 1) {
-//				dif = Rlocation.R_dif(data, Mn); // 前向差分
-//				dif_max_index = Rlocation.compare_R_dif_data(dif);// 计算差分值中的最大值，并返回最大值的点的横坐标
-//				R_index = Rlocation.R_adr_data(data, dif_max_index);// 计算R波的最大值点，并返回最大值点的横坐标
-//
-//				R_index_data[i] = R_index;
-//				Ri++;
-//				int xinlvzhi = 0;
-//				if (R_index_data[1] - R_index_data[0] != 0) {
-//					xinlvzhi = (int) (60 * 500 / (R_index_data[1] - R_index_data[0]));
-//					if (60 > xinlvzhi || xinlvzhi > 100) {
-//						xinlvzhi = (int) (60 + Math.random() * 40);
-//					}
-//
-//					showRealHR(xinlvzhi);
-//				}
-//			}
-//		}
-//	}
 
 	/**
 	 * 显示实时心率
@@ -753,22 +714,23 @@ public class HRV extends FragmentActivity implements View.OnClickListener {
 		shiwei = (int) ((data - 100 * baiwei) / 10.0);
 		gewei = data - 100 * baiwei - shiwei * 10;
 
-		int[] icon_da = { R.drawable.icon_da_0, R.drawable.icon_da_1,
-				R.drawable.icon_da_2, R.drawable.icon_da_3,
-				R.drawable.icon_da_4, R.drawable.icon_da_5,
-				R.drawable.icon_da_6, R.drawable.icon_da_7,
-				R.drawable.icon_da_8, R.drawable.icon_da_9, };
+//		int[] icon_da = { R.drawable.icon_da_0, R.drawable.icon_da_1,
+//				R.drawable.icon_da_2, R.drawable.icon_da_3,
+//				R.drawable.icon_da_4, R.drawable.icon_da_5,
+//				R.drawable.icon_da_6, R.drawable.icon_da_7,
+//				R.drawable.icon_da_8, R.drawable.icon_da_9, };
 		if (baiwei == 0) {
-			SSXLbaiwei.setVisibility(View.GONE);
+            xinlvData.setText(shiwei+""+gewei);
 		} else {
-			SSXLbaiwei.setVisibility(View.VISIBLE);
-			SSXLbaiwei.setBackgroundResource(icon_da[baiwei]);
+//			SSXLbaiwei.setVisibility(View.VISIBLE);
+//			SSXLbaiwei.setBackgroundResource(icon_da[baiwei]);
+            xinlvData.setText(baiwei+""+shiwei+""+gewei);
 		}
 
-		SSXLshiwei.setBackgroundResource(icon_da[shiwei]);
-		SSXLgewei.setBackgroundResource(icon_da[gewei]);
 
-	}
+
+
+    }
 
 	/**
 	 * 与flagment有关的函数
@@ -847,22 +809,11 @@ public class HRV extends FragmentActivity implements View.OnClickListener {
 
 		// 接收的按钮
 		if (view == startButton) {
-
+            mRotateCircleView.setSpeed(1.5f);
 			if (!isReading) {
 				isReading = true;
-				LinearLayout.LayoutParams lp = (LinearLayout.LayoutParams) startButton
-						.getLayoutParams();
-				lp.leftMargin = startFrameLayout.getWidth()
-						- startButton.getWidth();
-				startButton.setBackgroundResource(R.drawable.btn_kaishi_2);
-				startFrameLayout
-						.setBackgroundResource(R.drawable.bg_zhuangtai_2);
-				startButton.setText("记录");
-				startButton.setLayoutParams(lp);
-				// huxi.setText("20");
-
-				jishixianshi.setVisibility(View.VISIBLE);
-				huadong.setVisibility(View.GONE);
+				startButton.setBackgroundResource(R.drawable.pic_stop_test);
+				startButton.setText("结束测试");
 
 				// 定时器
 				task = new TimerTask() {
@@ -885,14 +836,8 @@ public class HRV extends FragmentActivity implements View.OnClickListener {
 
 			} else {
 				isReading = false;
-				LinearLayout.LayoutParams lp = (LinearLayout.LayoutParams) startButton
-						.getLayoutParams();
-				lp.leftMargin = 0;
-				startButton.setBackgroundResource(R.drawable.btn_kaishi_1);
-				startFrameLayout
-						.setBackgroundResource(R.drawable.bg_zhuangtai_1);
-				startButton.setText("开始");
-				startButton.setLayoutParams(lp);
+				startButton.setBackgroundResource(R.drawable.pic_begin_test);
+				startButton.setText("开始测试");
 				if (task != null) {
 					task.cancel();
 				}
@@ -900,6 +845,7 @@ public class HRV extends FragmentActivity implements View.OnClickListener {
 				huadong.setVisibility(View.VISIBLE);
 				fen = 4;
 				miao = 60;
+                mRotateCircleView.setTimeRest("05","00");
 				FtextView.setText("05");
 				MtextView.setText("00");
 				ft232.stopRead();
@@ -1244,18 +1190,25 @@ public class HRV extends FragmentActivity implements View.OnClickListener {
 	private void dingshi() {
 		miao--;
 		FtextView.setText("0" + fen);
-		if (miao < 0) {
+        mRotateCircleView.setTimeRest("0" + fen,null);
+
+        if (miao < 0) {
 			fen = fen - 1;
 			miao = 59;
 			FtextView.setText("0" + fen);
 			MtextView.setText("" + miao);
+            mRotateCircleView.setTimeRest("0" + fen,"" + miao);
 
 		} else {
 			if (miao < 10 && miao >= 0) {
 				MtextView.setText("0" + miao);
-			} else {
+                mRotateCircleView.setTimeRest(null,"" + "0" + miao);
+
+            } else {
 				MtextView.setText("" + miao);
-			}
+                mRotateCircleView.setTimeRest(null,"" + miao);
+
+            }
 		}
 		if (miao == 0 && fen == 0) {
 			// 5分钟计时结束
@@ -1600,76 +1553,6 @@ public class HRV extends FragmentActivity implements View.OnClickListener {
 			}
 		}
 
-		// /**
-		// * 主要用来处理心电波形的实时跟新、心率实时计算与显示等
-		// */
-		// Handler handler = new Handler() {
-		// @Override
-		// public void handleMessage(Message msg) {
-		//
-		// // // 实时心率的计算与显示
-		// // shimiaojishi++;
-		// // if (shimiaojishi > 50) {
-		// // if (2000 * (Quzhi + 1) < EcgData.size() - 5000) {
-		// // float[] data = new float[2000];
-		// // int k = 0;
-		// // for (int i = EcgData.size() - 2100; i < EcgData.size() - 100;
-		// // i++) {
-		// // data[k] = EcgData.get(i);
-		// // k++;
-		// // }
-		// // // 实时心率计算
-		// // realHeartRate(data);
-		// // Quzhi++;
-		// // }
-		// //
-		// // shimiaojishi = 0;
-		// // }
-		//
-		// // 心电波形的实时显示
-		// if (EcgData.size() > 300) {
-		// for (int i = 0; i < readLength; i++) {
-		// float sumYnn = 0;
-		// float meanYnn = 0;
-		//
-		// for (int j = l - 100; j < l; j++) {
-		// sumYnn = sumYnn + EcgData.get(j);
-		// }
-		// meanYnn = (float) ((sumYnn / 100.0));
-		//
-		// if (l < EcgData.size()) {
-		// Ynn[k] = EcgData.get(l - 50);
-		// // respYnn[k] = respData.get(l - 50);
-		// // ecg_num++;
-		// series.add(k, (Ynn[k] - meanYnn));
-		// l++;
-		// k++;
-		// } else {
-		// return;
-		// }
-		//
-		// if (k == m * 1500) { // 屏幕自动向右滑动
-		// mXYRenderer.setXAxisMin(X * m);
-		// mXYRenderer.setXAxisMax(X * (m + 1));
-		// m++;
-		// }
-		// }
-		// }
-		//
-		// // if (EcgData.size() > 320000) {
-		// // stopRead();
-		// // Toast.makeText(getApplicationContext(), "结束",
-		// // Toast.LENGTH_LONG).show();
-		// //
-		// // } else {
-		//
-		// mViewChart.invalidate();// 视图更新
-		//
-		// // }
-		//
-		// }
-		// };
-
 		/**
 		 * 将字节数组中的字节装换为十六进制字符
 		 * 
@@ -1873,45 +1756,6 @@ public class HRV extends FragmentActivity implements View.OnClickListener {
 		}
 	}
 
-	// /**
-	// * 5分钟测试结束后调用，变量清零，初始化
-	// */
-	// private void hasFinished() {
-	//
-	// // 开始按钮复位
-	// LinearLayout.LayoutParams lp = (LinearLayout.LayoutParams) startButton
-	// .getLayoutParams();
-	// lp.leftMargin = 0;
-	// startButton.setBackgroundResource(R.drawable.btn_kaishi_1);
-	// startFrameLayout.setBackgroundResource(R.drawable.bg_zhuangtai_1);
-	// startButton.setText("开始");
-	// startButton.setLayoutParams(lp);
-	// jishixianshi.setVisibility(View.GONE);
-	// huadong.setVisibility(View.VISIBLE);
-	//
-	// // 变量初始化
-	// EcgData.clear();
-	// series.clear();
-	// mViewChart.invalidate();// 视图更新
-	// isReading = false;
-	// isopen = true;
-	// isre = true;
-	// fen = 4;
-	// miao = 60;
-	// inferData = null;
-	// sandianData = null;
-	// pointStr = null;
-	//
-	// ft232.bReadThreadGoing = false;
-	// ft232.DevCount = -1;
-	// ft232.NUM = 0;
-	// // ft232.k = 0;
-	// // ft232.m = 1;
-	// // ft232.l = 200;
-	// ft232.ecgStr_temp = null;
-	// ft232.respStr_temp = null;
-	//
-	// }
 
 	/**
 	 * 连续按两次返回键退出程序

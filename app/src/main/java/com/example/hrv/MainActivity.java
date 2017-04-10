@@ -17,6 +17,7 @@ import com.hrv.HRV;
 import com.login.ClientUtil;
 import com.login.LoadingActivity;
 import com.loopj.android.http.AsyncHttpResponseHandler;
+import com.userInfoActivity.UserInfoActivity;
 
 import org.apache.http.Header;
 
@@ -52,7 +53,7 @@ public class MainActivity extends FragmentActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent();
-                intent.setClass(MainActivity.this, FirstActivity.class);
+                intent.setClass(MainActivity.this, HRV.class);
                 intent.putExtra("user_name", uername);
                 startActivity(intent);
             }
@@ -87,10 +88,11 @@ public class MainActivity extends FragmentActivity {
         user.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent();
-                intent.setClass(MainActivity.this, HRV.class);
-                intent.putExtra("user_name", uername);
-                startActivity(intent);
+//                Intent intent = new Intent();
+//                intent.setClass(MainActivity.this, FirstActivity.class);
+//                intent.putExtra("user_name", uername);
+//                startActivity(intent);
+                startActivity(new Intent(MainActivity.this,UserInfoActivity.class));
 
             }
         });

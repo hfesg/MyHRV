@@ -20,12 +20,12 @@
         "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/drawable-hdpi/abc_ic_voice_search.png"
     },
     {
-        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable-hdpi/btn_kaishi_2.png",
-        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/drawable-hdpi/btn_kaishi_2.png"
-    },
-    {
         "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable-hdpi/abc_ic_clear_normal.png",
         "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/drawable-hdpi/abc_ic_clear_normal.png"
+    },
+    {
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable-hdpi/btn_kaishi_2.png",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/drawable-hdpi/btn_kaishi_2.png"
     },
     {
         "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable-hdpi/icon_xiao_0.png",
@@ -84,12 +84,12 @@
         "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/drawable-hdpi/btn_lishidian_2.png"
     },
     {
-        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable-hdpi/btn_bangzhu.png",
-        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/drawable-hdpi/btn_bangzhu.png"
-    },
-    {
         "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable-hdpi/icon_biaoqing_3.png",
         "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/drawable-hdpi/icon_biaoqing_3.png"
+    },
+    {
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable-hdpi/btn_bangzhu.png",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/drawable-hdpi/btn_bangzhu.png"
     },
     {
         "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable-hdpi/icon_da_5.png",
@@ -148,12 +148,12 @@
         "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/drawable-hdpi/login_button_nor.png"
     },
     {
-        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable-hdpi/icon_xiao_2.png",
-        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/drawable-hdpi/icon_xiao_2.png"
-    },
-    {
         "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable-hdpi/abc_ic_clear_disabled.png",
         "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/drawable-hdpi/abc_ic_clear_disabled.png"
+    },
+    {
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable-hdpi/icon_xiao_2.png",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/drawable-hdpi/icon_xiao_2.png"
     },
     {
         "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable-hdpi/abc_list_pressed_holo_light.9.png",
@@ -282,6 +282,10 @@
     {
         "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable-hdpi/bg_zhuangtai_1.png",
         "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/drawable-hdpi/bg_zhuangtai_1.png"
+    },
+    {
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable-hdpi/yonghutouxiang.png",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/drawable-hdpi/yonghutouxiang.png"
     },
     {
         "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable-hdpi/btn_huxi_2.png",

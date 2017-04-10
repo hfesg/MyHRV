@@ -51,7 +51,7 @@ import android.widget.Toast;
 import com.cqupt.filter.ECGFilter;
 import com.cqupt.filter.SmoothFilter;
 import com.example.hrv.FirstActivity;
-import com.example.hrv.R;
+
 import com.ftdi.j2xx.D2xxManager;
 import com.ftdi.j2xx.FT_Device;
 import com.historyActivity.HistoryActivity;

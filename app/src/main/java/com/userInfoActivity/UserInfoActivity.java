@@ -4,6 +4,7 @@ import com.example.hrv.R;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.view.View;
 import android.view.Window;
 
 public class UserInfoActivity extends Activity {
@@ -12,5 +13,11 @@ public class UserInfoActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		setContentView(R.layout.activity_userinfo);
+		findViewById(R.id.fanhui).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+            }
+        });
 	}
 }

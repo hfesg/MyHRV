@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/iv_healthy_tips_list_pic"
+        android:layout_width="105dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/landing" />
+
+    <TextView
+        android:id="@+id/tv_healthy_tips_list_item_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/iv_healthy_tips_list_pic"
+        android:layout_marginRight="15dp"
+        android:layout_toEndOf="@+id/iv_healthy_tips_list_pic"
+        android:layout_toRightOf="@+id/iv_healthy_tips_list_pic"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="中共第十八届六中全会将召开"
+        android:textColor="@color/hot_news_list_title"
+        android:textSize="15.5sp" />
+
+    <TextView
+        android:id="@+id/tv_healthy_tips_list_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/iv_healthy_tips_list_pic"
+        android:layout_alignLeft="@+id/tv_healthy_tips_list_item_title"
+        android:layout_alignStart="@+id/tv_healthy_tips_list_item_title"
+        android:layout_below="@+id/tv_healthy_tips_list_item_title"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="5dp"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:minLines="2"
+        android:text="10月份北京召开，分析经济形势，部署下半年经济工作"
+        android:textColor="@color/small_content"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/iv_news_item_divider"
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/divider" />
+
+    <TextView
+        android:id="@+id/tv_text_resource"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_resource"
+        android:layout_toLeftOf="@+id/tv_resource"
+        android:textSize="12sp"
+        android:text="来源:"
+        android:textColor="@color/hot_news_list_resouce" />
+
+    <TextView
+        android:id="@+id/tv_resource"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"
+        android:text="微信公众号“瑜伽网”"
+        android:textColor="@color/hot_news_list_resouce"
+        android:textSize="12sp"
+        />
+
+</RelativeLayout>

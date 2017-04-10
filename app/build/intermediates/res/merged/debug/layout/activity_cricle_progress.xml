@@ -1,5 +1,5 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res/com.example.hrv"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
@@ -11,55 +11,11 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal" >
 
-        <RelativeLayout
-            android:id="@+id/linear1"
-            android:layout_width="match_parent"
-            android:layout_height="50dip"
-            android:background="#00000000" >
-
-            <Button
-                android:id="@+id/close"
-                android:layout_width="30dip"
-                android:layout_height="30dip"
-                android:layout_alignParentLeft="true"
-                android:layout_marginLeft="10dip"
-                android:layout_marginTop="10dip"
-                android:layout_marginBottom="10dip"
-                android:onClick="onClick"
-                android:background="@drawable/backha" />
-
-            <Button
-                android:id="@+id/btn_help"
-                android:layout_width="45dip"
-                android:layout_height="50dip"
-                android:layout_alignParentRight="true"
-                android:layout_marginBottom="5dip"
-                android:layout_marginRight="10dip"
-                android:layout_marginTop="5dip"
-                android:background="@drawable/ic_action_help"
-            	android:onClick="onClick" 
-                 />
-
-             <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true"
-                android:background="#00000000"
-                android:textSize="20dip"
-                android:text="呼吸引导训练"
-                android:textColor="#ffffff"
-                 />
-
-
-
-        </RelativeLayout>
-
         <TextView
             android:id="@+id/text"
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:layout_below="@id/linear1"
+
             android:background="#efefef" />
 
         <LinearLayout
@@ -86,6 +42,53 @@
                 android:background="@drawable/selector_btn_voiceopen"
                 android:onClick="onClick" />
         </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/linear1"
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:background="#4ca650"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <Button
+                android:id="@+id/close"
+                android:layout_width="25dip"
+                android:layout_height="25dip"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dip"
+                android:layout_marginTop="10dip"
+                android:layout_marginBottom="10dip"
+                android:onClick="onClick"
+                android:background="@drawable/backha" />
+
+            <Button
+                android:id="@+id/btn_help"
+                android:layout_width="40dp"
+                android:layout_height="40dip"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="5dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="5dip"
+                android:background="@drawable/ic_action_help"
+            	android:onClick="onClick"
+                 />
+
+             <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="#00000000"
+                android:textSize="20dip"
+                android:text="呼吸引导训练"
+                android:textColor="#ffffff"
+                 />
+
+
+
+        </RelativeLayout>
 
         <!-- <Button
             android:id="@+id/btn_help"
