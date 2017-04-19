@@ -752,8 +752,8 @@
         <Button
             android:id="@+id/start"
             android:layout_width="100dp"
-            android:layout_height="105dp"
-            android:text="开始"
+            android:layout_height="100dp"
+            android:text="开始测试"
             android:textColor="#fff"
             android:textSize="14sp"
             android:background="@drawable/pic_begin_test"

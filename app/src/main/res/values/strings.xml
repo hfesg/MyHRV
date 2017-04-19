@@ -84,4 +84,13 @@
     <string name="text_attention5">           	5.身体状态较好的人，屏息时间可延长，呼吸节奏尽量放慢加深。</string>
     <string name="text_attention6">           	6.每天练习1-2次，坐式、卧式、走式、跑式皆可，练到微热微汗即可。</string>
 
+    <string name="running_history_title">历史记录</string>
+    <string name="running_history_item_today">2017/2/9</string>
+    <string name="running_history_item_km">KM</string>
+    <string name="running_history_item_watch_footprint">查看足迹</string>
+
+    <!--我的足迹界面-->
+    <string name="running_my_footprint_title">我的足迹</string>
+    <string name="running_my_footprint_time">用时</string>
+    <string name="running_my_footprint_km">KM</string>
 </resources>

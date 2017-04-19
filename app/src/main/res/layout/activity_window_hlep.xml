@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#4ca650"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="帮助"
+            android:textColor="#fff"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/fanhui"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/backha"
+            />
+    </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="使用说明："
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="    芭蕉绿是一款配合硬件产品测量焦虑值的软件，其意义在于配合对应的硬件产品能够测量出用户的焦虑状态，提醒用户关注自己的精神健康，并且能够从APP中附带的几种减压方式中获得帮助，获取健康知识，改善自己的健康状况。
+"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:scrollbars="vertical"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="指标解释："
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="焦虑值：其为本产品利用HRV分析以及独创算法所计算出的一个代表用户精神状态的数值。其处于0~40时可判定用户基本没有精神压力，40~60表示用户处于有精神压力的状态，60~80表示用户的精神压力较重，80~100表示用户处于非常严重的精神压力状态下。
+本产品可以测量得到的参数如下：
+*时域参数：
+SDNN：全部窦性心搏RR间期（简称NN间期）的标准差。
+SDANN：RR间期平均值标准差。
+RMSSD：相邻RR间期差值的均方根。
+PNN50：相邻NN之差>50ms的个数占总窦性心搏个数的百分比。
+*频域参数：
+TP：指所有频率范围内各个功率分量的总和，是自主神经系统的整体活性状态，表示自主神经对机体的调节能力。
+HF：高频功率主要体现迷走神经的活性，与呼 吸运动相关，一般在呼吸缓慢或深呼吸时有过度升高的现象。
+LF：低频功率，自主神经系统的传出神经，受交感神经和迷走神经的双重影响，主要体现交感神经的活性。
+VLF：超低频功率，主要代表交感神经张力，与体温调节系统密切相关，与血管运动、激素相关的心肺功能也有关联。
+（注：时域分析以及频域分析为对心电信号分析的两种方式）
+"
+       android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:scrollbars="vertical"
+        />
+
+</LinearLayout>

@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:2:1-90:12
+ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:2:1-91:12
 	package
 		ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:3:5-30
 		INJECTED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml
@@ -80,7 +80,7 @@ ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManife
 	android:name
 		ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:43:22-71
 application
-ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:45:5-88:19
+ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:45:5-89:19
 MERGED from [com.android.support:appcompat-v7:18.0.0] /Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/AndroidManifest.xml:19:5-20
 MERGED from [com.android.support:support-v4:21.0.3] /Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/AndroidManifest.xml:16:5-19
 MERGED from [com.android.support:recyclerview-v7:21.0.3] /Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.3/AndroidManifest.xml:17:5-19:19
@@ -187,16 +187,20 @@ activity#com.login.LoginActivity
 ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:83:9-59
 	android:name
 		ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:83:19-57
+activity#com.example.hrv.UserHelpActivity
+ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:84:9-53
+	android:name
+		ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:84:19-51
 meta-data#com.amap.api.v2.apikey
-ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:84:9-86:63
+ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:85:9-87:63
 	android:value
-		ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:86:13-61
+		ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:87:13-61
 	android:name
-		ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:85:13-50
+		ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:86:13-50
 service#com.amap.api.location.APSService
-ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:87:9-67
+ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:88:9-67
 	android:name
-		ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:87:18-65
+		ADDED from /Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/AndroidManifest.xml:88:18-65
 activity#android.support.v7.widget.TestActivity
 ADDED from [com.android.support:recyclerview-v7:21.0.3] /Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.3/AndroidManifest.xml:18:9-115
 	android:label

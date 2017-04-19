@@ -841,6 +841,7 @@ public class HRV extends FragmentActivity implements View.OnClickListener {
 				if (task != null) {
 					task.cancel();
 				}
+				mRotateCircleView.setSpeed(0f);
 				jishixianshi.setVisibility(View.GONE);
 				huadong.setVisibility(View.VISIBLE);
 				fen = 4;

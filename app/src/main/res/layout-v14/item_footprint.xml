@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="99.7dp"
+        android:background="@color/running_ranking_history_item_bg"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tv_item_running_history_text_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tv_item_running_history_distance"
+            android:text="@string/running_history_item_today"
+            android:textColor="@color/running_ranking_history_item_small"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/tv_item_running_history_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/tv_item_running_history_text_date"
+            android:text="00:00"
+            android:textColor="@color/running_ranking_history_item_small"
+            android:textSize="13sp"
+
+            />
+
+        <TextView
+            android:id="@+id/tv_item_running_history_distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_item_running_history_text_date"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="10"
+            android:textColor="@color/running_ranking_history_item_distance"
+            android:textSize="38sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tv_item_running_history_distance"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/tv_item_running_history_distance"
+            android:text="@string/running_history_item_km"
+            android:textColor="@color/running_ranking_history_item_small"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/tv_running_history_during_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tv_item_running_history_distance"
+            android:layout_centerHorizontal="true"
+            android:text="00:20:37"
+            android:textColor="@color/running_ranking_history_item_time"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_item_running_history_watch_footprint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tv_item_running_history_distance"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:background="?android:attr/actionBarItemBackground"
+            android:clickable="true"
+            android:text="@string/running_history_item_watch_footprint"
+            android:textColor="@color/running_ranking_history_item_watch_footprint"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="@color/running_ranging_history_item_divider" />
+</LinearLayout>

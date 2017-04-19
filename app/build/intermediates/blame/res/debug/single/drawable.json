@@ -16,12 +16,12 @@
         "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/drawable/btn_style_green.xml"
     },
     {
-        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/pic_login_button.png",
-        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/drawable/pic_login_button.png"
-    },
-    {
         "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/pic_button_login_bg.png",
         "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/drawable/pic_button_login_bg.png"
+    },
+    {
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/pic_login_button.png",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/drawable/pic_login_button.png"
     },
     {
         "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/landing.png",
@@ -32,12 +32,12 @@
         "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/drawable/top_switcher_collapsed_selected.png"
     },
     {
-        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/pic_checkbox_checked.png",
-        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/drawable/pic_checkbox_checked.png"
-    },
-    {
         "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/pic_main_second.png",
         "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/drawable/pic_main_second.png"
+    },
+    {
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/pic_checkbox_checked.png",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/drawable/pic_checkbox_checked.png"
     },
     {
         "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
@@ -134,6 +134,10 @@
     {
         "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/pic_guilder.png",
         "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/drawable/pic_guilder.png"
+    },
+    {
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/pic_myfoot_print.png",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/drawable/pic_myfoot_print.png"
     },
     {
         "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/drawable/corners_iv.xml",

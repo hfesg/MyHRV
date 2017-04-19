@@ -42,4 +42,20 @@
     <color name="number">#000029</color>
     <color name="running_text_small">#9F9FB7</color>
     <color name="running_divider">#E2E4EE</color>
+
+	<color name="running_ranking_history_title_bg">#F2F6F7</color>
+	<color name="running_ranking_history_title">#000031</color>
+	<color name="running_ranking_history_back">#00001F</color>
+	<color name="running_ranking_history_item_small">#9F9FB7</color>
+	<color name="running_ranking_history_item_distance">#130F56</color>
+	<color name="running_ranking_history_item_time">#2C185E</color>
+	<color name="running_ranking_history_item_watch_footprint">#FF5E72</color>
+	<color name="running_ranking_history_item_bg">#FCFCFC</color>
+	<color name="running_ranging_history_item_divider">#E8E4EB</color>
+    <!--我的足迹界面的颜色-->
+    <color name="my_footprint_bottom_small">#ACACC1</color>
+    <color name="my_footprint_bottom_text_during_time">#9F9FB7</color>
+    <color name="my_footprint_bottom_during_time">#301A66</color>
+    <color name="my_footprint_bottom_distance">#301A66</color>
+    <color name="my_footprint_bottom_divider">#E8E4EB</color>
 </resources>

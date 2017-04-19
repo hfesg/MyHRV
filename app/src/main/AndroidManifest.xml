@@ -81,6 +81,7 @@
         <activity android:name=".HealthyTipsDetailActivity" />
         <activity android:name=".ThirdActivity"/>
         <activity android:name="com.login.LoginActivity"/>
+        <activity android:name=".UserHelpActivity"/>
         <meta-data
             android:name="com.amap.api.v2.apikey"
             android:value="ecb5460358e03e8db9bfb59aaea0ad01"/>

@@ -28,6 +28,7 @@ import com.amap.api.maps2d.model.Polyline;
 import com.amap.api.maps2d.model.PolylineOptions;
 import com.been.PathRecord;
 import com.example.hrv.R;
+import com.utils.GradientUtil;
 import com.utils.TimeRecorder;
 import com.utils.Utils;
 
@@ -140,7 +141,7 @@ public class ThirdActivity extends Activity implements LocationSource, AMapLocat
                     //开始定位的时间，之后会放在开始跑步的方法里
                     mPathRecord = new PathRecord();
                 }
-                PolylineOptions polylineOptions = new PolylineOptions().add(oldLatlng, newLatlng).width(10).color(Color.parseColor("#93F9B9"));
+                PolylineOptions polylineOptions = new PolylineOptions().add(oldLatlng, newLatlng).width(10).color(GradientUtil.getInstance().getGradient(500, Color.parseColor("#1E8C23"), Color.parseColor("#7AAB7C")));
                 oldLatlng = newLatlng;
                 mAMap.addPolyline(polylineOptions);
                 mPathRecord.addpoint(aMapLocation);

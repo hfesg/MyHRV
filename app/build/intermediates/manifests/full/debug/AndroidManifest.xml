@@ -80,6 +80,7 @@
         <activity android:name="com.example.hrv.HealthyTipsDetailActivity" />
         <activity android:name="com.example.hrv.ThirdActivity" />
         <activity android:name="com.login.LoginActivity" />
+        <activity android:name="com.example.hrv.UserHelpActivity" />
 
         <meta-data
             android:name="com.amap.api.v2.apikey"

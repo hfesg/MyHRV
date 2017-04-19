@@ -72,6 +72,10 @@
         "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/res/layout/abc_list_menu_item_checkbox.xml"
     },
     {
+        "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/layout/activity_window_hlep.xml",
+        "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/layout/activity_window_hlep.xml"
+    },
+    {
         "merged": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/build/intermediates/res/merged/debug/layout/activity_boot.xml",
         "source": "/Users/xushuzhan/AndroidStudioProjects/HRV/app/src/main/res/layout/activity_boot.xml"
     },

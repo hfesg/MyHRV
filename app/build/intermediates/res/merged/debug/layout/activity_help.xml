@@ -2,165 +2,169 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:scrollbars="vertical" 
-    android:background="#F8F8FF">
+    android:background="#F8F8FF"
+    android:scrollbars="vertical">
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical" >
+        android:orientation="vertical">
 
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:orientation="vertical" >
+            android:orientation="vertical">
+
             <RelativeLayout
-            android:id="@+id/linear1"
-            android:layout_width="match_parent"
-            android:layout_height="50dip"
-            android:background="#4fa5d5" >
+                android:id="@+id/linear1"
+                android:layout_width="match_parent"
+                android:layout_height="50dip"
+                android:background="#4ca650">
 
-            <Button
-                android:id="@+id/close"
-                android:layout_width="30dip"
-                android:layout_height="30dip"
-                android:layout_alignParentLeft="true"
-                android:layout_marginLeft="10dip"
-                android:layout_marginTop="10dip"
-                android:layout_marginBottom="10dip"
-                android:onClick="onClick"
-                android:background="@drawable/backha" />
-
-
-             <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true"
-                android:background="#4fa5d5"
-                android:textSize="20dip"
-                android:text="呼吸引导指南"
-                android:textColor="#ffffff"
-                 />
+                <Button
+                    android:id="@+id/close"
+                    android:layout_width="20dip"
+                    android:layout_height="20dip"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dip"
+                    android:background="@drawable/backha"
+                    android:onClick="onClick" />
 
 
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:text="呼吸引导指南"
+                    android:textColor="#ffffff"
+                    android:textSize="20dip" />
 
-        </RelativeLayout>
 
-            
+            </RelativeLayout>
+
+
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/white"
-                android:layout_marginTop="10dip"
                 android:layout_marginLeft="6dip"
                 android:layout_marginRight="6dip"
+                android:layout_marginTop="10dip"
                 android:background="@color/green_light"
                 android:gravity="center_horizontal"
                 android:text="使用须知"
+                android:textColor="@color/white"
                 android:textSize="16dip" />
-            
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                 android:layout_marginLeft="6dip"
+                android:layout_marginLeft="6dip"
                 android:layout_marginRight="6dip"
                 android:padding="4dip"
                 android:text="@string/text_info1"
                 android:textSize="15dip" />
-            
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                 android:layout_marginLeft="6dip"
+                android:layout_marginLeft="6dip"
                 android:layout_marginRight="6dip"
                 android:padding="4dip"
                 android:text="@string/text_info2"
                 android:textSize="15dip" />
-            
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                 android:layout_marginLeft="6dip"
+                android:layout_marginLeft="6dip"
                 android:layout_marginRight="6dip"
                 android:padding="4dip"
                 android:text="@string/text_info3"
                 android:textSize="15dip" />
-            
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                 android:layout_marginLeft="6dip"
+                android:layout_marginLeft="6dip"
                 android:layout_marginRight="6dip"
                 android:padding="4dip"
                 android:text="@string/text_info4"
                 android:textSize="15dip" />
-            
-            
+
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="center_horizontal"
-                android:textColor="@color/white"
-                android:layout_marginTop="10dip"
                 android:layout_marginLeft="6dip"
                 android:layout_marginRight="6dip"
+                android:layout_marginTop="10dip"
                 android:background="@color/green_light"
+                android:gravity="center_horizontal"
                 android:text="练习方法"
+                android:textColor="@color/white"
                 android:textSize="16dip" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                 android:layout_marginLeft="6dip"
+                android:layout_marginLeft="6dip"
                 android:layout_marginRight="6dip"
                 android:padding="4dip"
                 android:text="@string/text_practise1"
                 android:textSize="15dip" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                 android:layout_marginLeft="6dip"
+                android:layout_marginLeft="6dip"
                 android:layout_marginRight="6dip"
                 android:padding="4dip"
                 android:text="@string/text_practise2"
                 android:textSize="15dip" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                 android:layout_marginLeft="6dip"
+                android:layout_marginLeft="6dip"
                 android:layout_marginRight="6dip"
                 android:padding="4dip"
                 android:text="@string/text_practise3"
                 android:textSize="15dip" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                 android:layout_marginLeft="6dip"
+                android:layout_marginLeft="6dip"
                 android:layout_marginRight="6dip"
                 android:padding="4dip"
                 android:text="@string/text_practise4"
                 android:textSize="15dip" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                 android:layout_marginLeft="6dip"
+                android:layout_marginLeft="6dip"
                 android:layout_marginRight="6dip"
                 android:padding="4dip"
                 android:text="@string/text_practise5"
                 android:textSize="15dip" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                 android:layout_marginLeft="6dip"
+                android:layout_marginLeft="6dip"
                 android:layout_marginRight="6dip"
                 android:padding="4dip"
                 android:text="@string/text_practise6"
                 android:textSize="15dip" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                 android:layout_marginLeft="6dip"
+                android:layout_marginLeft="6dip"
                 android:layout_marginRight="6dip"
                 android:padding="4dip"
                 android:text="@string/text_practise7"
@@ -169,59 +173,64 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="center_horizontal"
-                android:layout_marginTop="10dip"
                 android:layout_marginLeft="6dip"
                 android:layout_marginRight="6dip"
-                android:textColor="@color/white"
+                android:layout_marginTop="10dip"
                 android:background="@color/green_light"
+                android:gravity="center_horizontal"
                 android:text="注意事项"
+                android:textColor="@color/white"
                 android:textSize="16dip" />
-            
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                 android:layout_marginLeft="6dip"
+                android:layout_marginLeft="6dip"
                 android:layout_marginRight="6dip"
                 android:padding="4dip"
                 android:text="@string/text_attention1"
                 android:textSize="15dip" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                 android:layout_marginLeft="6dip"
+                android:layout_marginLeft="6dip"
                 android:layout_marginRight="6dip"
                 android:padding="4dip"
                 android:text="@string/text_attention2"
                 android:textSize="15dip" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                 android:layout_marginLeft="6dip"
+                android:layout_marginLeft="6dip"
                 android:layout_marginRight="6dip"
                 android:padding="4dip"
                 android:text="@string/text_attention3"
                 android:textSize="15dip" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                 android:layout_marginLeft="6dip"
+                android:layout_marginLeft="6dip"
                 android:layout_marginRight="6dip"
                 android:padding="4dip"
                 android:text="@string/text_attention4"
                 android:textSize="15dip" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                 android:layout_marginLeft="6dip"
+                android:layout_marginLeft="6dip"
                 android:layout_marginRight="6dip"
                 android:padding="4dip"
                 android:text="@string/text_attention5"
                 android:textSize="15dip" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                 android:layout_marginLeft="6dip"
+                android:layout_marginLeft="6dip"
                 android:layout_marginRight="6dip"
                 android:padding="4dip"
                 android:text="@string/text_attention6"
